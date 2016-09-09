@@ -24,4 +24,8 @@ The iOS simulator can be used if `navigator.getUserMedia({"audio": true, "video"
 ## Deployment
 
 The web version of the application is deployed on heroku and can be reached by opening https://liive.in.   
+
+TODO: 
+* Continuous deployment 
+* Server/CDN cleanup.
  
