@@ -17,7 +17,7 @@ const devServer= {
 };
 module.exports = {
   devtool: 'source-map',
-  // devServer: devServer,
+  devServer: devServer,
   entry: [
     path.join(__dirname, '../index.chrome.js')
   ],

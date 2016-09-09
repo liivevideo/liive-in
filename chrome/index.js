@@ -15,9 +15,9 @@ chrome.app.runtime.onLaunched.addListener(function() {
         id: "boilder2",
         innerBounds: {
             width: 480,
-            height: 480,
+            height: 960,
             minWidth: 380,
-            minHeight: 380
+            minHeight: 760
         }
     });
 });
