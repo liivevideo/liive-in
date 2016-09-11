@@ -18,6 +18,7 @@ build:
     - npm run-script shippable-cobertura
 
   on_success:
+    -
     - if [ "$BRANCH" == "master" ]; then git push -f git@heroku.com:liive-signal-master.git master:master; fi
     - if [ "$BRANCH" == "develop" ]; then git push -f git@heroku.com:liive-signal-develop.git develop:master; fi
 
