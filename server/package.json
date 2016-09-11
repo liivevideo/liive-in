@@ -2,7 +2,7 @@
   "name": "liive.in.server",
   "title": "Liive Video",
   "description": "An authorization and signal server for liive.in.",
-  "version": "0.0.4",
+  "version": "0.0.4.1",
   "main": "app.js",
   "author": "Robb Lovell",
   "engines": {
