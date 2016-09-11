@@ -19,7 +19,6 @@ The iOS simulator can be used if `navigator.getUserMedia({"audio": true, "video"
 - Android: connect a real device or start an android simulator and run `npm run android` .  
 - Chrome `npm run build-chrome` produces a bundle for /chrome/src. Put chrome into developer mode and then go to chrome://extensions and load the chrome application from the /chrome directory.  
 - Web (Server based) `npm run build-web` in the directory.  This produces a bundle.js file in the web/src directory. 
-- Cdn (CDN based) `npm run build-cdn` in the directory.  This produces a bundle.js file in the cdn/src directory. 
 
 ## Deployment
 

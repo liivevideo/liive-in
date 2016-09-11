@@ -1,11 +1,11 @@
 const path = require('path')
 const webpack = require('webpack')
 const WriteFilePlugin = require('write-file-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
-const DIRECTORY = path.join(__dirname)
 const devServer = {
-  outputPath: path.join(__dirname, 'src'),
-  contentBase: path.resolve(__dirname, 'src'),
+  outputPath: path.join(__dirname, 'build'),
+  contentBase: path.resolve(__dirname, 'build'),
   colors: true,
   quiet: true,
   noInfo: false,
@@ -32,7 +32,12 @@ module.exports = {
     }),
     new webpack.optimize.DedupePlugin(),
     new webpack.optimize.OccurenceOrderPlugin(),
-    new WriteFilePlugin()
+    new WriteFilePlugin(),
+    new CopyWebpackPlugin([
+      { from: 'web/index.html', to: './', force: false },
+      { from: 'web/build/bundle.js', to: '../../server/public/build', force: true },
+      { from: 'web/build/bundle.js.map', to: '../../server/public/build', force: true },
+    ],{ copyUnmodified: true })
   ],
   resolve: {
     alias: {

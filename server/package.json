@@ -1,0 +1,53 @@
+{
+  "name": "liive.in.server",
+  "title": "Liive Video",
+  "description": "An authorization and signal server for liive.in.",
+  "version": "0.0.4.1",
+  "main": "app.js",
+  "author": "Robb Lovell",
+  "engines": {
+    "node": "v6.2.2"
+  },
+  "scripts": {
+    "open": "heroku open",
+    "logs": "heroku logs --tail",
+    "deploy": "git push heroku master",
+    "start": "node app.js",
+    "test": "./node_modules/.bin/_mocha",
+    "test-shippable": "mkdir -p shippable/testresults && mocha --reporter xunit ./test/*.js > shippable/testresults/result.xml",
+    "test-coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- -u tdd",
+    "shippable-cobertura": "./node_modules/.bin/istanbul report cobertura --dir shippable/codecoverage/"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.1",
+    "express": "^4.11.2",
+    "jade": "^1.11.0",
+    "open": "0.0.5",
+    "pug": "^2.0.0-beta6",
+    "serve-favicon": "^2.3.0",
+    "socket.io": "1.3.4",
+    "stylus": "^0.42.3"
+  },
+  "devDependencies": {
+    "coffeescript-compiler": "^0.1.1",
+    "chai": "^3.5.0",
+    "coffee-import": "^1.0.0",
+    "concurrent-transform": "^1.0.0",
+    "deep-freeze": "0.0.1",
+    "expect": "^1.20.2",
+    "file-loader": "^0.9.0",
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^2.3.2",
+    "gulp-jade": "^1.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-stylus": "^2.5.0",
+    "gulp-tap": "^0.1.3",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.0.2",
+    "shelljs": "^0.7.0",
+    "shoulda": "0.0.1",
+    "touch": "^1.0.0"
+  }
+}

@@ -2,7 +2,9 @@
 if (!window.navigator.userAgent) {
     window.navigator.userAgent = "react-native";
 }
-window.localStorage = chrome.storage.local;
+if (chrome !== undefined && chrome.storage !== undefined) {
+    window.localStorage = chrome.storage.local;
+}
 
 import { AppRegistry } from 'react-native';
 
