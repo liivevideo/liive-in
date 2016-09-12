@@ -1,0 +1,57 @@
+language: node_js
+
+node_js:
+   - "6.2.2"
+
+build:
+  pre_ci:
+    - mkdir -p shippable/testresults
+    - mkdir -p shippable/codecoverage
+
+  ci:
+    - npm install
+    - npm test
+
+  post_ci:
+    - npm run-script test-shippable
+    - npm run-script test-coverage
+    - npm run-script shippable-cobertura
+
+  on_success:
+    - if [ "$BRANCH" == "master" ]; git push heroku master:master; fi
+
+  on_failure:
+    - npm run-script test-shippable
+    - npm run-script test-coverage
+    - npm run-script shippable-cobertura
+
+integrations:
+  key:
+    - integrationName: HerokuSSHKey
+      type: ssh-key
+
+  notifications:
+    - integrationName: CINotification
+      type: slack
+      recipients:
+        - "#ci"
+      branches:
+        only:
+          - master
+          - develop
+      on_success: change
+      on_failure: always
+      on_start: never
+
+    - integrationName: email
+      type: email
+      recipients:
+        - robb@liivevideo.com
+      branches:
+        only:
+          - master
+          - develop
+      on_success: change  # options: [always|never|change] default: always
+      on_failure: always  # options: [always|never|change] default: always
+      on_start: never     # options: [always|never|change] default: always
+
