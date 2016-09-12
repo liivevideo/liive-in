@@ -41,3 +41,5 @@ android/app/libs
 android/keystores/debug.keystore
 **/bundle.js
 **/bundle.js.map
+coverage
+shippable
