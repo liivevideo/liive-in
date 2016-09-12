@@ -19,8 +19,7 @@ build:
 
   on_success:
     -
-    - if [ "$BRANCH" == "master" ]; then git push -f git@heroku.com:liive-signal-master.git master:master; fi
-    - if [ "$BRANCH" == "develop" ]; then git push -f git@heroku.com:liive-signal-develop.git develop:master; fi
+    - if [ "$BRANCH" == "master" ]; then cd server; git push heroku master:master; fi
 
   on_failure:
     - npm run-script test-shippable
