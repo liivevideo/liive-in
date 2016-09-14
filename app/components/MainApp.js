@@ -79,7 +79,7 @@ var foundLocalVideoChannel = function(stream) {
 var configuration = {
     iceServers: [{"url": "stun:stun.l.google.com:19302"}],
     io: io,
-    signalServer: "https://liive.io",
+    signalServer: "https://liive.in",
     RTCSessionDescription: RTCSessionDescription,
     RTCPeerConnection: RTCPeerConnection,
     RTCIceCandidate: RTCIceCandidate,
