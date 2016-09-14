@@ -26,9 +26,6 @@ integrations:
   key:
     - integrationName: HerokuSSHKey
       type: ssh-key
-  key:
-    - integrationName: BitBucketSSH
-      type: ssh-key
 
   notifications:
     - integrationName: CINotification
