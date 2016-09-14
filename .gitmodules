@@ -1,0 +1,4 @@
+[submodule "server"]
+	path = server
+	url = git@bitbucket.org:liivevideo/signal.liive.in.git
+	branch = develop
