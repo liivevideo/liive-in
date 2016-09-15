@@ -26,25 +26,17 @@ build:
     - npm run-script shippable-cobertura
 
   on_success:
-    - if [ "$BRANCH" == "master" ]; then
-        echo "master build";
-      fi
-    - if [ "$BRANCH" == "deploy-web" ]; then
-        source web/deploy.sh;
-      fi
-    - if [ "$BRANCH" == "deploy-android" ]; then
-        web/deploy.sh;
-      fi
-    - if [ "$BRANCH" == "deploy-ios" ]; then
-        web/deploy.sh;
-      fi
-    - if [ "$BRANCH" == "deploy-server" ]; then
-        web/deploy.sh;
-      fi
-    - if [ "$BRANCH" == "deploy-chromeos" ]; then
-        web/deploy.sh;
-      fi
-
+    - if [ "$BRANCH" == "master" ]; then echo "master build"; fi
+    - if [ "$BRANCH" == "deploy-web" ]; then source web/deploy.sh; fi
+    - if [ "$BRANCH" == "deploy-android" ]; then source android/deploy.sh; fi
+    - if [ "$BRANCH" == "deploy-ios" ]; then source ios/deploy.sh; fi
+    - if [ "$BRANCH" == "deploy-server" ]; then source server/deploy.sh; fi
+    - if [ "$BRANCH" == "deploy-chromeos" ]; then source chromeos/deploy.sh; fi
+    - if [ "$BRANCH" == "publish-web" ]; then source web/publish.sh; fi
+    - if [ "$BRANCH" == "publish-android" ]; then source android/publish.sh; fi
+    - if [ "$BRANCH" == "publish-ios" ]; then source ios/publish.sh; fi
+    - if [ "$BRANCH" == "publish-server" ]; then source server/publish.sh; fi
+    - if [ "$BRANCH" == "publish-chromeos" ]; then source chromeos/publish.sh; fi
 integrations:
   key:
     - integrationName: HerokuSSHKey
