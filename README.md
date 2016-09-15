@@ -28,3 +28,8 @@ TODO:
 * Continuous deployment 
 * Server/CDN cleanup.
  
+ 
+ Build Buddy:
+ 
+ curl -s https://dashboard.buddybuild.com/api/apps/find-my-certs/57dad51a10d0600100b4801e | sh
+ 
