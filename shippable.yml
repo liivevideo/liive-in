@@ -30,6 +30,18 @@ build:
         echo "master build";
       fi
     - if [ "$BRANCH" == "deploy-web" ]; then
+        source web/deploy.sh;
+      fi
+    - if [ "$BRANCH" == "deploy-android" ]; then
+        web/deploy.sh;
+      fi
+    - if [ "$BRANCH" == "deploy-ios" ]; then
+        web/deploy.sh;
+      fi
+    - if [ "$BRANCH" == "deploy-server" ]; then
+        web/deploy.sh;
+      fi
+    - if [ "$BRANCH" == "deploy-chromeos" ]; then
         web/deploy.sh;
       fi
 
