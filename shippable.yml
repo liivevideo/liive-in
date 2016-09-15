@@ -27,12 +27,10 @@ build:
 
   on_success:
     - if [ "$BRANCH" == "master" ]; then
-        cat package.json
-        echo "Hello"
+        echo "master build";
       fi
     - if [ "$BRANCH" == "deploy-web" ]; then
-        aws s3 cp s3://s3-download-demo/config.json package.json
-        cat package.json
+        web/deploy.sh
       fi
 
 integrations:
