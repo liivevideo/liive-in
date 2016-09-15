@@ -30,7 +30,7 @@ build:
         echo "master build";
       fi
     - if [ "$BRANCH" == "deploy-web" ]; then
-        web/deploy.sh
+        web/deploy.sh;
       fi
 
 integrations:
