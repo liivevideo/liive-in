@@ -38,6 +38,10 @@ target 'Liive.In Internal' do
     import_app_pods
 end
 
+target 'iOSNativeApp' do
+    import_app_pods
+end
+
 target 'Tests' do
     inherit! :search_paths
 end

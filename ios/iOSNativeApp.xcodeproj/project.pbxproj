@@ -10,6 +10,7 @@
 		00E356F31AD99517003FC87E /* iOSNativeAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* iOSNativeAppTests.m */; };
 		13626415471F387CED541EFD /* libPods-Liive.In.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F33560772CC26FF70313C058 /* libPods-Liive.In.a */; };
 		607D0F1F6E235D3B64AD6211 /* libPods-Liive.In Internal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC7DE09FE97081518E5855E /* libPods-Liive.In Internal.a */; };
+		62DDD6386CEDF0D5678461D6 /* libPods-iOSNativeApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3992C557E4F4500D34912C11 /* libPods-iOSNativeApp.a */; };
 		C4AC25832F7073E5AEEBFB9A /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEFB87D55DCDCC2B3038B3A /* libPods-Tests.a */; };
 		F7D4077E1D8BC0A400DDA170 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		F7D4077F1D8BC0A400DDA170 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -38,9 +39,12 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = iOSNativeApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = iOSNativeApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = iOSNativeApp/main.m; sourceTree = "<group>"; };
+		3992C557E4F4500D34912C11 /* libPods-iOSNativeApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSNativeApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A6EDFA53D8BC950C5A1AABD /* Pods-Liive.In.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Liive.In.release.xcconfig"; path = "Pods/Target Support Files/Pods-Liive.In/Pods-Liive.In.release.xcconfig"; sourceTree = "<group>"; };
 		7BEFB87D55DCDCC2B3038B3A /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E0172586CF8509B78683FDA /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		91E18C48CF72474AD0320178 /* Pods-iOSNativeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSNativeApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSNativeApp/Pods-iOSNativeApp.release.xcconfig"; sourceTree = "<group>"; };
+		A98284C3D8D889B820715BAC /* Pods-iOSNativeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSNativeApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSNativeApp/Pods-iOSNativeApp.debug.xcconfig"; sourceTree = "<group>"; };
 		C112FDA9AA170F0BE4AD4867 /* Pods-Liive.In Internal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Liive.In Internal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Liive.In Internal/Pods-Liive.In Internal.debug.xcconfig"; sourceTree = "<group>"; };
 		CCC7DE09FE97081518E5855E /* libPods-Liive.In Internal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Liive.In Internal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1AE46A3A507C64FA6C19C7D /* Pods-Liive.In.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Liive.In.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Liive.In/Pods-Liive.In.debug.xcconfig"; sourceTree = "<group>"; };
@@ -68,6 +72,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7D407811D8BC0A400DDA170 /* libPods-Liive.In Internal.a in Frameworks */,
+				62DDD6386CEDF0D5678461D6 /* libPods-iOSNativeApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +132,7 @@
 				F33560772CC26FF70313C058 /* libPods-Liive.In.a */,
 				CCC7DE09FE97081518E5855E /* libPods-Liive.In Internal.a */,
 				7BEFB87D55DCDCC2B3038B3A /* libPods-Tests.a */,
+				3992C557E4F4500D34912C11 /* libPods-iOSNativeApp.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -167,6 +173,8 @@
 				08A585E492C4F419C418447D /* Pods-Liive.In Internal.release.xcconfig */,
 				F1B681341F541CE00A74CE39 /* Pods-Tests.debug.xcconfig */,
 				8E0172586CF8509B78683FDA /* Pods-Tests.release.xcconfig */,
+				A98284C3D8D889B820715BAC /* Pods-iOSNativeApp.debug.xcconfig */,
+				91E18C48CF72474AD0320178 /* Pods-iOSNativeApp.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -510,7 +518,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Liive.In Internal/Pods-Liive.In Internal-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSNativeApp/Pods-iOSNativeApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F7D407871D8BC0A400DDA170 /* 📦 Copy Pods Resources */ = {
@@ -525,7 +533,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Liive.In Internal/Pods-Liive.In Internal-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSNativeApp/Pods-iOSNativeApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F7E3B98E1D8BA9A8005B88A3 /* Bundle React Native code and images */ = {
@@ -741,7 +749,7 @@
 		};
 		F7D407891D8BC0A400DDA170 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C112FDA9AA170F0BE4AD4867 /* Pods-Liive.In Internal.debug.xcconfig */;
+			baseConfigurationReference = A98284C3D8D889B820715BAC /* Pods-iOSNativeApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -769,7 +777,7 @@
 		};
 		F7D4078A1D8BC0A400DDA170 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08A585E492C4F419C418447D /* Pods-Liive.In Internal.release.xcconfig */;
+			baseConfigurationReference = 91E18C48CF72474AD0320178 /* Pods-iOSNativeApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
