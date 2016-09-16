@@ -883,7 +883,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = in.liive.;
+				PRODUCT_BUNDLE_IDENTIFIER = in.liive.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "6c09e345-1c8f-4497-81b4-583ee103c670";
 			};
@@ -910,7 +910,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = in.liive.;
+				PRODUCT_BUNDLE_IDENTIFIER = in.liive.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "6c09e345-1c8f-4497-81b4-583ee103c670";
 			};
