@@ -23,11 +23,6 @@ def import_app_pods
         'Core',
         'libWebRTC',
     ]
-    # $(SRCROOT)/../node_modules/react-native-webrtc/**
-    # $(inherited)
-    # "$PODS_CONFIGURATION_BUILD_DIR/RCTWebRTC"
-    # "$PODS_CONFIGURATION_BUILD_DIR/React"
-    # "${PODS_ROOT}/../../node_modules/react-native-webrtc/ios/libjingle_peerconnection"
 end
 
 target 'Liive.In' do
