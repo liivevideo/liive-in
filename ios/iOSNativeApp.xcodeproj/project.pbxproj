@@ -7,187 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
-		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
-		00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
-		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
-		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
 		00E356F31AD99517003FC87E /* iOSNativeAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* iOSNativeAppTests.m */; };
-		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
-		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
-		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
-		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
-		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		BF772BB91D2E500700C3B0A8 /* libWebRTC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BB41D2E500700C3B0A8 /* libWebRTC.a */; };
-		BF772BC71D2E502A00C3B0A8 /* libRCTWebRTC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BC41D2E500700C3B0A8 /* libRCTWebRTC.a */; };
-		BF772BC91D2E503700C3B0A8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BC81D2E503700C3B0A8 /* AVFoundation.framework */; };
-		BF772BCB1D2E504D00C3B0A8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BCA1D2E504D00C3B0A8 /* AudioToolbox.framework */; };
-		BF772BCD1D2E505300C3B0A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BCC1D2E505300C3B0A8 /* CoreGraphics.framework */; };
-		BF772BCF1D2E505800C3B0A8 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BCE1D2E505800C3B0A8 /* GLKit.framework */; };
-		BF772BD11D2E505F00C3B0A8 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BD01D2E505F00C3B0A8 /* CoreAudio.framework */; };
-		BF772BD31D2E506500C3B0A8 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BD21D2E506500C3B0A8 /* CoreVideo.framework */; };
-		BF772BD51D2E506B00C3B0A8 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BD41D2E506B00C3B0A8 /* VideoToolbox.framework */; };
-		BF772BD71D2E507600C3B0A8 /* libc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BD61D2E507600C3B0A8 /* libc.tbd */; };
-		BF772BD91D2E507E00C3B0A8 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BD81D2E507E00C3B0A8 /* libsqlite3.tbd */; };
-		BF772BDB1D2E508500C3B0A8 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BDA1D2E508500C3B0A8 /* libstdc++.tbd */; };
+		13626415471F387CED541EFD /* libPods-Liive.In.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F33560772CC26FF70313C058 /* libPods-Liive.In.a */; };
+		607D0F1F6E235D3B64AD6211 /* libPods-Liive.In Internal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC7DE09FE97081518E5855E /* libPods-Liive.In Internal.a */; };
+		62DDD6386CEDF0D5678461D6 /* libPods-iOSNativeApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3992C557E4F4500D34912C11 /* libPods-iOSNativeApp.a */; };
+		C4AC25832F7073E5AEEBFB9A /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEFB87D55DCDCC2B3038B3A /* libPods-Tests.a */; };
+		F7D4077E1D8BC0A400DDA170 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		F7D4077F1D8BC0A400DDA170 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		F7D407811D8BC0A400DDA170 /* libPods-Liive.In Internal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC7DE09FE97081518E5855E /* libPods-Liive.In Internal.a */; };
+		F7D407831D8BC0A400DDA170 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		F7D407841D8BC0A400DDA170 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		F7E3B9721D8BA9A8005B88A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		F7E3B9731D8BA9A8005B88A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		F7E3B98C1D8BA9A8005B88A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		F7E3B98D1D8BA9A8005B88A3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		F7E3B9B71D8BAC4B005B88A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		F7E3B9B81D8BAC4B005B88A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		F7E3B9D11D8BAC4B005B88A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		F7E3B9D21D8BAC4B005B88A3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		00C302AB1ABCB8CE00DB3ED1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 134814201AA4EA6300B7C361;
-			remoteInfo = RCTActionSheet;
-		};
-		00C302B91ABCB90400DB3ED1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 134814201AA4EA6300B7C361;
-			remoteInfo = RCTGeolocation;
-		};
-		00C302BF1ABCB91800DB3ED1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 58B5115D1A9E6B3D00147676;
-			remoteInfo = RCTImage;
-		};
-		00C302DB1ABCB9D200DB3ED1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 58B511DB1A9E6C8500147676;
-			remoteInfo = RCTNetwork;
-		};
-		00C302E31ABCB9EE00DB3ED1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 832C81801AAF6DEF007FA2F7;
-			remoteInfo = RCTVibration;
-		};
-		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = iOSNativeApp;
-		};
-		139105C01AF99BAD00B5F7CC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 134814201AA4EA6300B7C361;
-			remoteInfo = RCTSettings;
-		};
-		139FDEF31B06529B00C62182 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3C86DF461ADF2C930047B81A;
-			remoteInfo = RCTWebSocket;
-		};
-		146834031AC3E56700842450 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
-			remoteInfo = React;
-		};
-		78C398B81ACF4ADC00677621 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 134814201AA4EA6300B7C361;
-			remoteInfo = RCTLinking;
-		};
-		832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
-			remoteInfo = RCTText;
-		};
-		BF772BC31D2E500700C3B0A8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BF772BB51D2E500700C3B0A8 /* RCTWebRTC.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 35A2221F1CB493700015FD5C;
-			remoteInfo = RCTWebRTC;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTActionSheet.xcodeproj; path = "../node_modules/react-native/Libraries/ActionSheetIOS/RCTActionSheet.xcodeproj"; sourceTree = "<group>"; };
-		00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTGeolocation.xcodeproj; path = "../node_modules/react-native/Libraries/Geolocation/RCTGeolocation.xcodeproj"; sourceTree = "<group>"; };
-		00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTImage.xcodeproj; path = "../node_modules/react-native/Libraries/Image/RCTImage.xcodeproj"; sourceTree = "<group>"; };
-		00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTNetwork.xcodeproj; path = "../node_modules/react-native/Libraries/Network/RCTNetwork.xcodeproj"; sourceTree = "<group>"; };
-		00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVibration.xcodeproj; path = "../node_modules/react-native/Libraries/Vibration/RCTVibration.xcodeproj"; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* iOSNativeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSNativeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* iOSNativeAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSNativeAppTests.m; sourceTree = "<group>"; };
-		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
-		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* iOSNativeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSNativeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08A585E492C4F419C418447D /* Pods-Liive.In Internal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Liive.In Internal.release.xcconfig"; path = "Pods/Target Support Files/Pods-Liive.In Internal/Pods-Liive.In Internal.release.xcconfig"; sourceTree = "<group>"; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = iOSNativeApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = iOSNativeApp/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = iOSNativeApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = iOSNativeApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = iOSNativeApp/main.m; sourceTree = "<group>"; };
-		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
-		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		BF772B951D2E500700C3B0A8 /* RTCAudioSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCAudioSource.h; sourceTree = "<group>"; };
-		BF772B961D2E500700C3B0A8 /* RTCAudioTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCAudioTrack.h; sourceTree = "<group>"; };
-		BF772B971D2E500700C3B0A8 /* RTCAVFoundationVideoSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCAVFoundationVideoSource.h; sourceTree = "<group>"; };
-		BF772B981D2E500700C3B0A8 /* RTCDataChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCDataChannel.h; sourceTree = "<group>"; };
-		BF772B991D2E500700C3B0A8 /* RTCEAGLVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCEAGLVideoView.h; sourceTree = "<group>"; };
-		BF772B9A1D2E500700C3B0A8 /* RTCFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCFileLogger.h; sourceTree = "<group>"; };
-		BF772B9B1D2E500700C3B0A8 /* RTCI420Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCI420Frame.h; sourceTree = "<group>"; };
-		BF772B9C1D2E500700C3B0A8 /* RTCICECandidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCICECandidate.h; sourceTree = "<group>"; };
-		BF772B9D1D2E500700C3B0A8 /* RTCICEServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCICEServer.h; sourceTree = "<group>"; };
-		BF772B9E1D2E500700C3B0A8 /* RTCLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCLogging.h; sourceTree = "<group>"; };
-		BF772B9F1D2E500700C3B0A8 /* RTCMediaConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCMediaConstraints.h; sourceTree = "<group>"; };
-		BF772BA01D2E500700C3B0A8 /* RTCMediaSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCMediaSource.h; sourceTree = "<group>"; };
-		BF772BA11D2E500700C3B0A8 /* RTCMediaStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCMediaStream.h; sourceTree = "<group>"; };
-		BF772BA21D2E500700C3B0A8 /* RTCMediaStreamTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCMediaStreamTrack.h; sourceTree = "<group>"; };
-		BF772BA31D2E500700C3B0A8 /* RTCNSGLVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCNSGLVideoView.h; sourceTree = "<group>"; };
-		BF772BA41D2E500700C3B0A8 /* RTCOpenGLVideoRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCOpenGLVideoRenderer.h; sourceTree = "<group>"; };
-		BF772BA51D2E500700C3B0A8 /* RTCPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCPair.h; sourceTree = "<group>"; };
-		BF772BA61D2E500700C3B0A8 /* RTCPeerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCPeerConnection.h; sourceTree = "<group>"; };
-		BF772BA71D2E500700C3B0A8 /* RTCPeerConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCPeerConnectionDelegate.h; sourceTree = "<group>"; };
-		BF772BA81D2E500700C3B0A8 /* RTCPeerConnectionFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCPeerConnectionFactory.h; sourceTree = "<group>"; };
-		BF772BA91D2E500700C3B0A8 /* RTCPeerConnectionInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCPeerConnectionInterface.h; sourceTree = "<group>"; };
-		BF772BAA1D2E500700C3B0A8 /* RTCSessionDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCSessionDescription.h; sourceTree = "<group>"; };
-		BF772BAB1D2E500700C3B0A8 /* RTCSessionDescriptionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCSessionDescriptionDelegate.h; sourceTree = "<group>"; };
-		BF772BAC1D2E500700C3B0A8 /* RTCStatsDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCStatsDelegate.h; sourceTree = "<group>"; };
-		BF772BAD1D2E500700C3B0A8 /* RTCStatsReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCStatsReport.h; sourceTree = "<group>"; };
-		BF772BAE1D2E500700C3B0A8 /* RTCTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCTypes.h; sourceTree = "<group>"; };
-		BF772BAF1D2E500700C3B0A8 /* RTCVideoCapturer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCVideoCapturer.h; sourceTree = "<group>"; };
-		BF772BB01D2E500700C3B0A8 /* RTCVideoRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCVideoRenderer.h; sourceTree = "<group>"; };
-		BF772BB11D2E500700C3B0A8 /* RTCVideoSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCVideoSource.h; sourceTree = "<group>"; };
-		BF772BB21D2E500700C3B0A8 /* RTCVideoTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCVideoTrack.h; sourceTree = "<group>"; };
-		BF772BB41D2E500700C3B0A8 /* libWebRTC.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWebRTC.a; sourceTree = "<group>"; };
-		BF772BB51D2E500700C3B0A8 /* RCTWebRTC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebRTC.xcodeproj; path = "../node_modules/react-native-webrtc/ios/RCTWebRTC.xcodeproj"; sourceTree = "<group>"; };
-		BF772BC81D2E503700C3B0A8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		BF772BCA1D2E504D00C3B0A8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		BF772BCC1D2E505300C3B0A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BF772BCE1D2E505800C3B0A8 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
-		BF772BD01D2E505F00C3B0A8 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
-		BF772BD21D2E506500C3B0A8 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
-		BF772BD41D2E506B00C3B0A8 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
-		BF772BD61D2E507600C3B0A8 /* libc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libc.tbd; path = usr/lib/libc.tbd; sourceTree = SDKROOT; };
-		BF772BD81D2E507E00C3B0A8 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		BF772BDA1D2E508500C3B0A8 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		3992C557E4F4500D34912C11 /* libPods-iOSNativeApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSNativeApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A6EDFA53D8BC950C5A1AABD /* Pods-Liive.In.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Liive.In.release.xcconfig"; path = "Pods/Target Support Files/Pods-Liive.In/Pods-Liive.In.release.xcconfig"; sourceTree = "<group>"; };
+		7BEFB87D55DCDCC2B3038B3A /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E0172586CF8509B78683FDA /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		91E18C48CF72474AD0320178 /* Pods-iOSNativeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSNativeApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSNativeApp/Pods-iOSNativeApp.release.xcconfig"; sourceTree = "<group>"; };
+		A98284C3D8D889B820715BAC /* Pods-iOSNativeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSNativeApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSNativeApp/Pods-iOSNativeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C112FDA9AA170F0BE4AD4867 /* Pods-Liive.In Internal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Liive.In Internal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Liive.In Internal/Pods-Liive.In Internal.debug.xcconfig"; sourceTree = "<group>"; };
+		CCC7DE09FE97081518E5855E /* libPods-Liive.In Internal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Liive.In Internal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1AE46A3A507C64FA6C19C7D /* Pods-Liive.In.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Liive.In.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Liive.In/Pods-Liive.In.debug.xcconfig"; sourceTree = "<group>"; };
+		F1B681341F541CE00A74CE39 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F33560772CC26FF70313C058 /* libPods-Liive.In.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Liive.In.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D4078B1D8BC0A400DDA170 /* iOSNativeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSNativeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D4078C1D8BC0A400DDA170 /* iOSNativeApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "iOSNativeApp-Info.plist"; path = "/Users/robblovell/src/liive/liive.in/ios/iOSNativeApp-Info.plist"; sourceTree = "<absolute>"; };
+		F7E3B9921D8BA9A8005B88A3 /* Liive.In Internal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Liive.In Internal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E3B9931D8BA9A8005B88A3 /* Liive.In Internal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Liive.In Internal-Info.plist"; path = "/Users/robblovell/src/liive/liive.in/ios/Liive.In Internal-Info.plist"; sourceTree = "<absolute>"; };
+		F7E3B9D71D8BAC4B005B88A3 /* Liive.In.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Liive.In.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E3B9D81D8BAC4C005B88A3 /* Liive.In-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Liive.In-Info.plist"; path = "/Users/robblovell/src/liive/liive.in/ios/Liive.In-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,82 +63,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
+				C4AC25832F7073E5AEEBFB9A /* libPods-Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+		F7D407801D8BC0A400DDA170 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF772BDB1D2E508500C3B0A8 /* libstdc++.tbd in Frameworks */,
-				BF772BD91D2E507E00C3B0A8 /* libsqlite3.tbd in Frameworks */,
-				BF772BD71D2E507600C3B0A8 /* libc.tbd in Frameworks */,
-				BF772BD51D2E506B00C3B0A8 /* VideoToolbox.framework in Frameworks */,
-				BF772BD31D2E506500C3B0A8 /* CoreVideo.framework in Frameworks */,
-				BF772BD11D2E505F00C3B0A8 /* CoreAudio.framework in Frameworks */,
-				BF772BCF1D2E505800C3B0A8 /* GLKit.framework in Frameworks */,
-				BF772BCD1D2E505300C3B0A8 /* CoreGraphics.framework in Frameworks */,
-				BF772BCB1D2E504D00C3B0A8 /* AudioToolbox.framework in Frameworks */,
-				BF772BC91D2E503700C3B0A8 /* AVFoundation.framework in Frameworks */,
-				BF772BC71D2E502A00C3B0A8 /* libRCTWebRTC.a in Frameworks */,
-				146834051AC3E58100842450 /* libReact.a in Frameworks */,
-				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
-				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
-				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
-				BF772BB91D2E500700C3B0A8 /* libWebRTC.a in Frameworks */,
-				133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */,
-				00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */,
-				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
-				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
-				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
-				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
+				F7D407811D8BC0A400DDA170 /* libPods-Liive.In Internal.a in Frameworks */,
+				62DDD6386CEDF0D5678461D6 /* libPods-iOSNativeApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E3B9741D8BA9A8005B88A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607D0F1F6E235D3B64AD6211 /* libPods-Liive.In Internal.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E3B9B91D8BAC4B005B88A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13626415471F387CED541EFD /* libPods-Liive.In.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00C302A81ABCB8CE00DB3ED1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		00C302B61ABCB90400DB3ED1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		00C302BC1ABCB91800DB3ED1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				00C302C01ABCB91800DB3ED1 /* libRCTImage.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		00C302D41ABCB9D200DB3ED1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		00C302E01ABCB9EE00DB3ED1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		00E356EF1AD99517003FC87E /* iOSNativeAppTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -288,22 +112,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		139105B71AF99BAD00B5F7CC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				139105C11AF99BAD00B5F7CC /* libRCTSettings.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		139FDEE71B06529A00C62182 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				139FDEF41B06529B00C62182 /* libRCTWebSocket.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		13B07FAE1A68108700A75B9A /* iOSNativeApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -318,66 +126,28 @@
 			name = iOSNativeApp;
 			sourceTree = "<group>";
 		};
-		146834001AC3E56700842450 /* Products */ = {
+		3EB3059A253943F2022E4DEB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				146834041AC3E56700842450 /* libReact.a */,
+				F33560772CC26FF70313C058 /* libPods-Liive.In.a */,
+				CCC7DE09FE97081518E5855E /* libPods-Liive.In Internal.a */,
+				7BEFB87D55DCDCC2B3038B3A /* libPods-Tests.a */,
+				3992C557E4F4500D34912C11 /* libPods-iOSNativeApp.a */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		78C398B11ACF4ADC00677621 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				78C398B91ACF4ADC00677621 /* libRCTLinking.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
-			isa = PBXGroup;
-			children = (
-				BF772B931D2E500700C3B0A8 /* libjingle_peerconnection */,
-				BF772BB51D2E500700C3B0A8 /* RCTWebRTC.xcodeproj */,
-				146833FF1AC3E56700842450 /* React.xcodeproj */,
-				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
-				00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */,
-				00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */,
-				78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */,
-				00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */,
-				139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */,
-				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
-				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
-				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
-			);
-			name = Libraries;
-			sourceTree = "<group>";
-		};
-		832341B11AAA6A8300B99B32 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				832341B51AAA6A8300B99B32 /* libRCTText.a */,
-			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				BF772BDA1D2E508500C3B0A8 /* libstdc++.tbd */,
-				BF772BD81D2E507E00C3B0A8 /* libsqlite3.tbd */,
-				BF772BD61D2E507600C3B0A8 /* libc.tbd */,
-				BF772BD41D2E506B00C3B0A8 /* VideoToolbox.framework */,
-				BF772BD21D2E506500C3B0A8 /* CoreVideo.framework */,
-				BF772BD01D2E505F00C3B0A8 /* CoreAudio.framework */,
-				BF772BCE1D2E505800C3B0A8 /* GLKit.framework */,
-				BF772BCC1D2E505300C3B0A8 /* CoreGraphics.framework */,
-				BF772BCA1D2E504D00C3B0A8 /* AudioToolbox.framework */,
-				BF772BC81D2E503700C3B0A8 /* AVFoundation.framework */,
 				13B07FAE1A68108700A75B9A /* iOSNativeApp */,
-				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* iOSNativeAppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
+				F7E3B9931D8BA9A8005B88A3 /* Liive.In Internal-Info.plist */,
+				F7E3B9D81D8BAC4C005B88A3 /* Liive.In-Info.plist */,
+				9BB8F3BF62E4086CE4D25C0F /* Pods */,
+				3EB3059A253943F2022E4DEB /* Frameworks */,
+				F7D4078C1D8BC0A400DDA170 /* iOSNativeApp-Info.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -386,96 +156,63 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* iOSNativeApp.app */,
-				00E356EE1AD99517003FC87E /* iOSNativeAppTests.xctest */,
+				00E356EE1AD99517003FC87E /* Tests.xctest */,
+				F7E3B9921D8BA9A8005B88A3 /* Liive.In Internal.app */,
+				F7E3B9D71D8BAC4B005B88A3 /* Liive.In.app */,
+				F7D4078B1D8BC0A400DDA170 /* iOSNativeApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BF772B931D2E500700C3B0A8 /* libjingle_peerconnection */ = {
+		9BB8F3BF62E4086CE4D25C0F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BF772B941D2E500700C3B0A8 /* Headers */,
-				BF772BB41D2E500700C3B0A8 /* libWebRTC.a */,
+				F1AE46A3A507C64FA6C19C7D /* Pods-Liive.In.debug.xcconfig */,
+				6A6EDFA53D8BC950C5A1AABD /* Pods-Liive.In.release.xcconfig */,
+				C112FDA9AA170F0BE4AD4867 /* Pods-Liive.In Internal.debug.xcconfig */,
+				08A585E492C4F419C418447D /* Pods-Liive.In Internal.release.xcconfig */,
+				F1B681341F541CE00A74CE39 /* Pods-Tests.debug.xcconfig */,
+				8E0172586CF8509B78683FDA /* Pods-Tests.release.xcconfig */,
+				A98284C3D8D889B820715BAC /* Pods-iOSNativeApp.debug.xcconfig */,
+				91E18C48CF72474AD0320178 /* Pods-iOSNativeApp.release.xcconfig */,
 			);
-			name = libjingle_peerconnection;
-			path = "../node_modules/react-native-webrtc/ios/libjingle_peerconnection";
-			sourceTree = "<group>";
-		};
-		BF772B941D2E500700C3B0A8 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				BF772B951D2E500700C3B0A8 /* RTCAudioSource.h */,
-				BF772B961D2E500700C3B0A8 /* RTCAudioTrack.h */,
-				BF772B971D2E500700C3B0A8 /* RTCAVFoundationVideoSource.h */,
-				BF772B981D2E500700C3B0A8 /* RTCDataChannel.h */,
-				BF772B991D2E500700C3B0A8 /* RTCEAGLVideoView.h */,
-				BF772B9A1D2E500700C3B0A8 /* RTCFileLogger.h */,
-				BF772B9B1D2E500700C3B0A8 /* RTCI420Frame.h */,
-				BF772B9C1D2E500700C3B0A8 /* RTCICECandidate.h */,
-				BF772B9D1D2E500700C3B0A8 /* RTCICEServer.h */,
-				BF772B9E1D2E500700C3B0A8 /* RTCLogging.h */,
-				BF772B9F1D2E500700C3B0A8 /* RTCMediaConstraints.h */,
-				BF772BA01D2E500700C3B0A8 /* RTCMediaSource.h */,
-				BF772BA11D2E500700C3B0A8 /* RTCMediaStream.h */,
-				BF772BA21D2E500700C3B0A8 /* RTCMediaStreamTrack.h */,
-				BF772BA31D2E500700C3B0A8 /* RTCNSGLVideoView.h */,
-				BF772BA41D2E500700C3B0A8 /* RTCOpenGLVideoRenderer.h */,
-				BF772BA51D2E500700C3B0A8 /* RTCPair.h */,
-				BF772BA61D2E500700C3B0A8 /* RTCPeerConnection.h */,
-				BF772BA71D2E500700C3B0A8 /* RTCPeerConnectionDelegate.h */,
-				BF772BA81D2E500700C3B0A8 /* RTCPeerConnectionFactory.h */,
-				BF772BA91D2E500700C3B0A8 /* RTCPeerConnectionInterface.h */,
-				BF772BAA1D2E500700C3B0A8 /* RTCSessionDescription.h */,
-				BF772BAB1D2E500700C3B0A8 /* RTCSessionDescriptionDelegate.h */,
-				BF772BAC1D2E500700C3B0A8 /* RTCStatsDelegate.h */,
-				BF772BAD1D2E500700C3B0A8 /* RTCStatsReport.h */,
-				BF772BAE1D2E500700C3B0A8 /* RTCTypes.h */,
-				BF772BAF1D2E500700C3B0A8 /* RTCVideoCapturer.h */,
-				BF772BB01D2E500700C3B0A8 /* RTCVideoRenderer.h */,
-				BF772BB11D2E500700C3B0A8 /* RTCVideoSource.h */,
-				BF772BB21D2E500700C3B0A8 /* RTCVideoTrack.h */,
-			);
-			path = Headers;
-			sourceTree = "<group>";
-		};
-		BF772BB61D2E500700C3B0A8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BF772BC41D2E500700C3B0A8 /* libRCTWebRTC.a */,
-			);
-			name = Products;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* iOSNativeAppTests */ = {
+		00E356ED1AD99517003FC87E /* Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "iOSNativeAppTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
+				F4BF997032A47F2842EEBDD2 /* 📦 Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				D292CD9BF4FE7EDADD639D3D /* 📦 Embed Pods Frameworks */,
+				CAB3E4F99DC5D1781E9ECBB1 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = iOSNativeAppTests;
+			name = Tests;
 			productName = iOSNativeAppTests;
-			productReference = 00E356EE1AD99517003FC87E /* iOSNativeAppTests.xctest */;
+			productReference = 00E356EE1AD99517003FC87E /* Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* iOSNativeApp */ = {
+		F7D4077B1D8BC0A400DDA170 /* iOSNativeApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "iOSNativeApp" */;
+			buildConfigurationList = F7D407881D8BC0A400DDA170 /* Build configuration list for PBXNativeTarget "iOSNativeApp" */;
 			buildPhases = (
-				13B07F871A680F5B00A75B9A /* Sources */,
-				13B07F8C1A680F5B00A75B9A /* Frameworks */,
-				13B07F8E1A680F5B00A75B9A /* Resources */,
-				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				F7D4077C1D8BC0A400DDA170 /* 📦 Check Pods Manifest.lock */,
+				F7D4077D1D8BC0A400DDA170 /* Sources */,
+				F7D407801D8BC0A400DDA170 /* Frameworks */,
+				F7D407821D8BC0A400DDA170 /* Resources */,
+				F7D407851D8BC0A400DDA170 /* Bundle React Native code and images */,
+				F7D407861D8BC0A400DDA170 /* 📦 Embed Pods Frameworks */,
+				F7D407871D8BC0A400DDA170 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -483,7 +220,49 @@
 			);
 			name = iOSNativeApp;
 			productName = "Hello World";
-			productReference = 13B07F961A680F5B00A75B9A /* iOSNativeApp.app */;
+			productReference = F7D4078B1D8BC0A400DDA170 /* iOSNativeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7E3B9701D8BA9A8005B88A3 /* Liive.In Internal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7E3B98F1D8BA9A8005B88A3 /* Build configuration list for PBXNativeTarget "Liive.In Internal" */;
+			buildPhases = (
+				EC24B770BDE8C16B6A59C688 /* 📦 Check Pods Manifest.lock */,
+				F7E3B9711D8BA9A8005B88A3 /* Sources */,
+				F7E3B9741D8BA9A8005B88A3 /* Frameworks */,
+				F7E3B98B1D8BA9A8005B88A3 /* Resources */,
+				F7E3B98E1D8BA9A8005B88A3 /* Bundle React Native code and images */,
+				2E7BF8C5091EECCA4712EF47 /* 📦 Embed Pods Frameworks */,
+				2BA861BF2F78B923F32CFD93 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Liive.In Internal";
+			productName = "Hello World";
+			productReference = F7E3B9921D8BA9A8005B88A3 /* Liive.In Internal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7E3B9B51D8BAC4B005B88A3 /* Liive.In */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7E3B9D41D8BAC4B005B88A3 /* Build configuration list for PBXNativeTarget "Liive.In" */;
+			buildPhases = (
+				43D2E1C8A60143CC7FADE70E /* 📦 Check Pods Manifest.lock */,
+				F7E3B9B61D8BAC4B005B88A3 /* Sources */,
+				F7E3B9B91D8BAC4B005B88A3 /* Frameworks */,
+				F7E3B9D01D8BAC4B005B88A3 /* Resources */,
+				F7E3B9D31D8BAC4B005B88A3 /* Bundle React Native code and images */,
+				2BB61C57B49F8CC48BA0D1BD /* 📦 Embed Pods Frameworks */,
+				BFC642624833167D8E58D218 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Liive.In;
+			productName = "Hello World";
+			productReference = F7E3B9D71D8BAC4B005B88A3 /* Liive.In.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -493,13 +272,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = Facebook;
+				ORGANIZATIONNAME = Liive;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
-					13B07F861A680F5B00A75B9A = {
+					F7E3B9701D8BA9A8005B88A3 = {
 						DevelopmentTeam = 6HTLZ87436;
 					};
 				};
@@ -515,139 +294,15 @@
 			mainGroup = 83CBB9F61A601CBA00E9B192;
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
-					ProjectRef = 00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */;
-				},
-				{
-					ProductGroup = 00C302B61ABCB90400DB3ED1 /* Products */;
-					ProjectRef = 00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */;
-				},
-				{
-					ProductGroup = 00C302BC1ABCB91800DB3ED1 /* Products */;
-					ProjectRef = 00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */;
-				},
-				{
-					ProductGroup = 78C398B11ACF4ADC00677621 /* Products */;
-					ProjectRef = 78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */;
-				},
-				{
-					ProductGroup = 00C302D41ABCB9D200DB3ED1 /* Products */;
-					ProjectRef = 00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */;
-				},
-				{
-					ProductGroup = 139105B71AF99BAD00B5F7CC /* Products */;
-					ProjectRef = 139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */;
-				},
-				{
-					ProductGroup = 832341B11AAA6A8300B99B32 /* Products */;
-					ProjectRef = 832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */;
-				},
-				{
-					ProductGroup = 00C302E01ABCB9EE00DB3ED1 /* Products */;
-					ProjectRef = 00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */;
-				},
-				{
-					ProductGroup = BF772BB61D2E500700C3B0A8 /* Products */;
-					ProjectRef = BF772BB51D2E500700C3B0A8 /* RCTWebRTC.xcodeproj */;
-				},
-				{
-					ProductGroup = 139FDEE71B06529A00C62182 /* Products */;
-					ProjectRef = 139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */;
-				},
-				{
-					ProductGroup = 146834001AC3E56700842450 /* Products */;
-					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* iOSNativeApp */,
-				00E356ED1AD99517003FC87E /* iOSNativeAppTests */,
+				F7E3B9B51D8BAC4B005B88A3 /* Liive.In */,
+				F7E3B9701D8BA9A8005B88A3 /* Liive.In Internal */,
+				00E356ED1AD99517003FC87E /* Tests */,
+				F7D4077B1D8BC0A400DDA170 /* iOSNativeApp */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRCTActionSheet.a;
-			remoteRef = 00C302AB1ABCB8CE00DB3ED1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRCTGeolocation.a;
-			remoteRef = 00C302B91ABCB90400DB3ED1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		00C302C01ABCB91800DB3ED1 /* libRCTImage.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRCTImage.a;
-			remoteRef = 00C302BF1ABCB91800DB3ED1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRCTNetwork.a;
-			remoteRef = 00C302DB1ABCB9D200DB3ED1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRCTVibration.a;
-			remoteRef = 00C302E31ABCB9EE00DB3ED1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		139105C11AF99BAD00B5F7CC /* libRCTSettings.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRCTSettings.a;
-			remoteRef = 139105C01AF99BAD00B5F7CC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		139FDEF41B06529B00C62182 /* libRCTWebSocket.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRCTWebSocket.a;
-			remoteRef = 139FDEF31B06529B00C62182 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		146834041AC3E56700842450 /* libReact.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libReact.a;
-			remoteRef = 146834031AC3E56700842450 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		78C398B91ACF4ADC00677621 /* libRCTLinking.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRCTLinking.a;
-			remoteRef = 78C398B81ACF4ADC00677621 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		832341B51AAA6A8300B99B32 /* libRCTText.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRCTText.a;
-			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		BF772BC41D2E500700C3B0A8 /* libRCTWebRTC.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRCTWebRTC.a;
-			remoteRef = BF772BC31D2E500700C3B0A8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		00E356EC1AD99517003FC87E /* Resources */ = {
@@ -657,19 +312,245 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+		F7D407821D8BC0A400DDA170 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				F7D407831D8BC0A400DDA170 /* Images.xcassets in Resources */,
+				F7D407841D8BC0A400DDA170 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E3B98B1D8BA9A8005B88A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E3B98C1D8BA9A8005B88A3 /* Images.xcassets in Resources */,
+				F7E3B98D1D8BA9A8005B88A3 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E3B9D01D8BAC4B005B88A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E3B9D11D8BAC4B005B88A3 /* Images.xcassets in Resources */,
+				F7E3B9D21D8BAC4B005B88A3 /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+		2BA861BF2F78B923F32CFD93 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Liive.In Internal/Pods-Liive.In Internal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BB61C57B49F8CC48BA0D1BD /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Liive.In/Pods-Liive.In-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E7BF8C5091EECCA4712EF47 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Liive.In Internal/Pods-Liive.In Internal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43D2E1C8A60143CC7FADE70E /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BFC642624833167D8E58D218 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Liive.In/Pods-Liive.In-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAB3E4F99DC5D1781E9ECBB1 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D292CD9BF4FE7EDADD639D3D /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC24B770BDE8C16B6A59C688 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F4BF997032A47F2842EEBDD2 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F7D4077C1D8BC0A400DDA170 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F7D407851D8BC0A400DDA170 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
+		};
+		F7D407861D8BC0A400DDA170 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSNativeApp/Pods-iOSNativeApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7D407871D8BC0A400DDA170 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSNativeApp/Pods-iOSNativeApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7E3B98E1D8BA9A8005B88A3 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
+		};
+		F7E3B9D31D8BAC4B005B88A3 /* Bundle React Native code and images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -694,24 +575,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		13B07F871A680F5B00A75B9A /* Sources */ = {
+		F7D4077D1D8BC0A400DDA170 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
-				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				F7D4077E1D8BC0A400DDA170 /* AppDelegate.m in Sources */,
+				F7D4077F1D8BC0A400DDA170 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E3B9711D8BA9A8005B88A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E3B9721D8BA9A8005B88A3 /* AppDelegate.m in Sources */,
+				F7E3B9731D8BA9A8005B88A3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E3B9B61D8BAC4B005B88A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E3B9B71D8BAC4B005B88A3 /* AppDelegate.m in Sources */,
+				F7E3B9B81D8BAC4B005B88A3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* iOSNativeApp */;
-			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
@@ -728,6 +619,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1B681341F541CE00A74CE39 /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				ENABLE_BITCODE = NO;
@@ -747,6 +639,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E0172586CF8509B78683FDA /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -758,59 +651,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSNativeApp.app/iOSNativeApp";
-			};
-			name = Release;
-		};
-		13B07F941A680F5B00A75B9A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEAD_CODE_STRIPPING = NO;
-				ENABLE_BITCODE = NO;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../node_modules/react-native/React/**",
-				);
-				INFOPLIST_FILE = iOSNativeApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native-webrtc/**";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-					"-lc++",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = iOSNativeApp;
-				PROVISIONING_PROFILE = "";
-			};
-			name = Debug;
-		};
-		13B07F951A680F5B00A75B9A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				ENABLE_BITCODE = NO;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../node_modules/react-native/React/**",
-				);
-				INFOPLIST_FILE = iOSNativeApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native-webrtc/**";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-					"-lc++",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = iOSNativeApp;
-				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -907,23 +747,179 @@
 			};
 			name = Release;
 		};
+		F7D407891D8BC0A400DDA170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A98284C3D8D889B820715BAC /* Pods-iOSNativeApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEAD_CODE_STRIPPING = NO;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+				);
+				INFOPLIST_FILE = "iOSNativeApp-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.liive.internal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		F7D4078A1D8BC0A400DDA170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91E18C48CF72474AD0320178 /* Pods-iOSNativeApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+				);
+				INFOPLIST_FILE = "iOSNativeApp-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.liive.internal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		F7E3B9901D8BA9A8005B88A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C112FDA9AA170F0BE4AD4867 /* Pods-Liive.In Internal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEAD_CODE_STRIPPING = NO;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+				);
+				INFOPLIST_FILE = "Liive.In Internal-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.liive.internal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		F7E3B9911D8BA9A8005B88A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08A585E492C4F419C418447D /* Pods-Liive.In Internal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+				);
+				INFOPLIST_FILE = "Liive.In Internal-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.liive.internal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		F7E3B9D51D8BAC4B005B88A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1AE46A3A507C64FA6C19C7D /* Pods-Liive.In.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEAD_CODE_STRIPPING = NO;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+				);
+				INFOPLIST_FILE = "Liive.In-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.liive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		F7E3B9D61D8BAC4B005B88A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A6EDFA53D8BC950C5A1AABD /* Pods-Liive.In.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+				);
+				INFOPLIST_FILE = "Liive.In-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.liive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "iOSNativeAppTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
 				00E356F71AD99517003FC87E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "iOSNativeApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				13B07F941A680F5B00A75B9A /* Debug */,
-				13B07F951A680F5B00A75B9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -933,6 +929,33 @@
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
 				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D407881D8BC0A400DDA170 /* Build configuration list for PBXNativeTarget "iOSNativeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D407891D8BC0A400DDA170 /* Debug */,
+				F7D4078A1D8BC0A400DDA170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7E3B98F1D8BA9A8005B88A3 /* Build configuration list for PBXNativeTarget "Liive.In Internal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E3B9901D8BA9A8005B88A3 /* Debug */,
+				F7E3B9911D8BA9A8005B88A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7E3B9D41D8BAC4B005B88A3 /* Build configuration list for PBXNativeTarget "Liive.In" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E3B9D51D8BAC4B005B88A3 /* Debug */,
+				F7E3B9D61D8BAC4B005B88A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

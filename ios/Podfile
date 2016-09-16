@@ -1,0 +1,39 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+inhibit_all_warnings!
+platform :ios, '9.2'
+project 'iOSNativeApp'
+workspace 'iOSNativeApp'
+
+def import_app_pods
+    pod 'React', :path => '../node_modules/react-native', :subspecs => [
+        'Core',
+        'RCTActionSheet',
+        'RCTGeolocation',
+        'RCTImage',
+        'RCTLinkingIOS',
+        'RCTNetwork',
+        'RCTSettings',
+        'RCTText',
+        'RCTVibration',
+        'RCTWebSocket',
+    ]
+
+    pod 'RCTWebRTC', :path => '../node_modules/react-native-webrtc'
+end
+
+target 'Liive.In' do
+    import_app_pods
+end
+
+target 'Liive.In Internal' do
+    import_app_pods
+end
+
+target 'iOSNativeApp' do
+    import_app_pods
+end
+
+target 'Tests' do
+    inherit! :search_paths
+end
