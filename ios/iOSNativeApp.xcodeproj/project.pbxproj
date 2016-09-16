@@ -11,6 +11,11 @@
 		13626415471F387CED541EFD /* libPods-Liive.In.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F33560772CC26FF70313C058 /* libPods-Liive.In.a */; };
 		607D0F1F6E235D3B64AD6211 /* libPods-Liive.In Internal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC7DE09FE97081518E5855E /* libPods-Liive.In Internal.a */; };
 		C4AC25832F7073E5AEEBFB9A /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEFB87D55DCDCC2B3038B3A /* libPods-Tests.a */; };
+		F7D4077E1D8BC0A400DDA170 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		F7D4077F1D8BC0A400DDA170 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		F7D407811D8BC0A400DDA170 /* libPods-Liive.In Internal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC7DE09FE97081518E5855E /* libPods-Liive.In Internal.a */; };
+		F7D407831D8BC0A400DDA170 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		F7D407841D8BC0A400DDA170 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		F7E3B9721D8BA9A8005B88A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		F7E3B9731D8BA9A8005B88A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		F7E3B98C1D8BA9A8005B88A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -41,8 +46,10 @@
 		F1AE46A3A507C64FA6C19C7D /* Pods-Liive.In.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Liive.In.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Liive.In/Pods-Liive.In.debug.xcconfig"; sourceTree = "<group>"; };
 		F1B681341F541CE00A74CE39 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F33560772CC26FF70313C058 /* libPods-Liive.In.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Liive.In.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D4078B1D8BC0A400DDA170 /* iOSNativeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSNativeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D4078C1D8BC0A400DDA170 /* iOSNativeApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "iOSNativeApp-Info.plist"; path = "/Users/robblovell/src/liive/liive.in/ios/iOSNativeApp-Info.plist"; sourceTree = "<absolute>"; };
 		F7E3B9921D8BA9A8005B88A3 /* Liive.In Internal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Liive.In Internal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7E3B9931D8BA9A8005B88A3 /* Liive.In Internal.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Liive.In Internal.plist"; path = "/Users/robblovell/src/liive/liive.in/ios/Liive.In Internal.plist"; sourceTree = "<absolute>"; };
+		F7E3B9931D8BA9A8005B88A3 /* Liive.In Internal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Liive.In Internal-Info.plist"; path = "/Users/robblovell/src/liive/liive.in/ios/Liive.In Internal-Info.plist"; sourceTree = "<absolute>"; };
 		F7E3B9D71D8BAC4B005B88A3 /* Liive.In.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Liive.In.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E3B9D81D8BAC4C005B88A3 /* Liive.In-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Liive.In-Info.plist"; path = "/Users/robblovell/src/liive/liive.in/ios/Liive.In-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
@@ -53,6 +60,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4AC25832F7073E5AEEBFB9A /* libPods-Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D407801D8BC0A400DDA170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D407811D8BC0A400DDA170 /* libPods-Liive.In Internal.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,10 +137,11 @@
 				13B07FAE1A68108700A75B9A /* iOSNativeApp */,
 				00E356EF1AD99517003FC87E /* iOSNativeAppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
-				F7E3B9931D8BA9A8005B88A3 /* Liive.In Internal.plist */,
+				F7E3B9931D8BA9A8005B88A3 /* Liive.In Internal-Info.plist */,
 				F7E3B9D81D8BAC4C005B88A3 /* Liive.In-Info.plist */,
 				9BB8F3BF62E4086CE4D25C0F /* Pods */,
 				3EB3059A253943F2022E4DEB /* Frameworks */,
+				F7D4078C1D8BC0A400DDA170 /* iOSNativeApp-Info.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -137,6 +153,7 @@
 				00E356EE1AD99517003FC87E /* Tests.xctest */,
 				F7E3B9921D8BA9A8005B88A3 /* Liive.In Internal.app */,
 				F7E3B9D71D8BAC4B005B88A3 /* Liive.In.app */,
+				F7D4078B1D8BC0A400DDA170 /* iOSNativeApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -176,6 +193,27 @@
 			productName = iOSNativeAppTests;
 			productReference = 00E356EE1AD99517003FC87E /* Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7D4077B1D8BC0A400DDA170 /* iOSNativeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D407881D8BC0A400DDA170 /* Build configuration list for PBXNativeTarget "iOSNativeApp" */;
+			buildPhases = (
+				F7D4077C1D8BC0A400DDA170 /* 📦 Check Pods Manifest.lock */,
+				F7D4077D1D8BC0A400DDA170 /* Sources */,
+				F7D407801D8BC0A400DDA170 /* Frameworks */,
+				F7D407821D8BC0A400DDA170 /* Resources */,
+				F7D407851D8BC0A400DDA170 /* Bundle React Native code and images */,
+				F7D407861D8BC0A400DDA170 /* 📦 Embed Pods Frameworks */,
+				F7D407871D8BC0A400DDA170 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSNativeApp;
+			productName = "Hello World";
+			productReference = F7D4078B1D8BC0A400DDA170 /* iOSNativeApp.app */;
+			productType = "com.apple.product-type.application";
 		};
 		F7E3B9701D8BA9A8005B88A3 /* Liive.In Internal */ = {
 			isa = PBXNativeTarget;
@@ -253,6 +291,7 @@
 				F7E3B9B51D8BAC4B005B88A3 /* Liive.In */,
 				F7E3B9701D8BA9A8005B88A3 /* Liive.In Internal */,
 				00E356ED1AD99517003FC87E /* Tests */,
+				F7D4077B1D8BC0A400DDA170 /* iOSNativeApp */,
 			);
 		};
 /* End PBXProject section */
@@ -262,6 +301,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D407821D8BC0A400DDA170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D407831D8BC0A400DDA170 /* Images.xcassets in Resources */,
+				F7D407841D8BC0A400DDA170 /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +469,65 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		F7D4077C1D8BC0A400DDA170 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F7D407851D8BC0A400DDA170 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
+		};
+		F7D407861D8BC0A400DDA170 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Liive.In Internal/Pods-Liive.In Internal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7D407871D8BC0A400DDA170 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Liive.In Internal/Pods-Liive.In Internal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F7E3B98E1D8BA9A8005B88A3 /* Bundle React Native code and images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -457,6 +564,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				00E356F31AD99517003FC87E /* iOSNativeAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D4077D1D8BC0A400DDA170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D4077E1D8BC0A400DDA170 /* AppDelegate.m in Sources */,
+				F7D4077F1D8BC0A400DDA170 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,6 +739,61 @@
 			};
 			name = Release;
 		};
+		F7D407891D8BC0A400DDA170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C112FDA9AA170F0BE4AD4867 /* Pods-Liive.In Internal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEAD_CODE_STRIPPING = NO;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+				);
+				INFOPLIST_FILE = "iOSNativeApp-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.liive.internal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		F7D4078A1D8BC0A400DDA170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08A585E492C4F419C418447D /* Pods-Liive.In Internal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+				);
+				INFOPLIST_FILE = "iOSNativeApp-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.liive.internal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
 		F7E3B9901D8BA9A8005B88A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C112FDA9AA170F0BE4AD4867 /* Pods-Liive.In Internal.debug.xcconfig */;
@@ -637,7 +808,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 				);
-				INFOPLIST_FILE = "Liive.In Internal.plist";
+				INFOPLIST_FILE = "Liive.In Internal-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
@@ -664,7 +835,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 				);
-				INFOPLIST_FILE = "Liive.In Internal.plist";
+				INFOPLIST_FILE = "Liive.In Internal-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
@@ -750,6 +921,15 @@
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
 				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D407881D8BC0A400DDA170 /* Build configuration list for PBXNativeTarget "iOSNativeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D407891D8BC0A400DDA170 /* Debug */,
+				F7D4078A1D8BC0A400DDA170 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
