@@ -54,7 +54,7 @@ class Room
     didConnect = () ->
 #        console.log('Room:: Did Connect, call get Media');
         # apple specific:
-        channel.getMedia({ audio: true, video: { facingMode: "user" }}, (stream) ->
+        channel.getMedia(configuration.mediaConstraints, (stream) ->
 #            console.log("Room:: did Connect end: "+stream)
         )
         return

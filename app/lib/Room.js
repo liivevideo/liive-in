@@ -63,12 +63,7 @@
     };
 
     didConnect = function() {
-      channel.getMedia({
-        audio: true,
-        video: {
-          facingMode: "user"
-        }
-      }, function(stream) {});
+      channel.getMedia(configuration.mediaConstraints, function(stream) {});
     };
 
     didExchange = function(data) {
