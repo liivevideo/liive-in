@@ -1,6 +1,6 @@
 PODS:
-  - RCTWebRTC/Core (0.12.0):
-    - RCTWebRTC/libWebRTC
+  - RCTWebRTC (0.12.0):
+    - RCTWebRTC/libWebRTC (= 0.12.0)
   - RCTWebRTC/libWebRTC (0.12.0)
   - React/Core (0.32.1):
     - React/CSSLayout
@@ -26,8 +26,7 @@ PODS:
     - React/Core
 
 DEPENDENCIES:
-  - RCTWebRTC/Core (from `../node_modules/react-native-webrtc`)
-  - RCTWebRTC/libWebRTC (from `../node_modules/react-native-webrtc`)
+  - RCTWebRTC (from `../node_modules/react-native-webrtc`)
   - React/Core (from `../node_modules/react-native`)
   - React/RCTActionSheet (from `../node_modules/react-native`)
   - React/RCTGeolocation (from `../node_modules/react-native`)
@@ -46,9 +45,9 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native"
 
 SPEC CHECKSUMS:
-  RCTWebRTC: d1347a804bb2f5dce327c57f4c6ea3576a745cbd
+  RCTWebRTC: 2863d62c93fe9b0d640143851cd936bc9d7248d1
   React: 304abd16605aeff4b114da814812a78de24d4ca5
 
-PODFILE CHECKSUM: adc554d470326a6d59352af68a46d7ada2911708
+PODFILE CHECKSUM: bc2466ae0559728184d75b61ce82afe1020e89e4
 
 COCOAPODS: 1.0.0

@@ -19,10 +19,7 @@ def import_app_pods
         'RCTWebSocket',
     ]
 
-    pod 'RCTWebRTC', :path => '../node_modules/react-native-webrtc', :subspecs => [
-        'Core',
-        'libWebRTC',
-    ]
+    pod 'RCTWebRTC', :path => '../node_modules/react-native-webrtc'
 end
 
 target 'Liive.In' do
