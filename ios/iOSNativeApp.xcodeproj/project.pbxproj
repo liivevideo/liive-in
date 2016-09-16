@@ -7,34 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
-		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
-		00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
-		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
-		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
 		00E356F31AD99517003FC87E /* iOSNativeAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* iOSNativeAppTests.m */; };
-		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
-		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
-		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
-		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
-		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		BF772BB91D2E500700C3B0A8 /* libWebRTC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BB41D2E500700C3B0A8 /* libWebRTC.a */; };
-		BF772BC71D2E502A00C3B0A8 /* libRCTWebRTC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BC41D2E500700C3B0A8 /* libRCTWebRTC.a */; };
-		BF772BC91D2E503700C3B0A8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BC81D2E503700C3B0A8 /* AVFoundation.framework */; };
-		BF772BCB1D2E504D00C3B0A8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BCA1D2E504D00C3B0A8 /* AudioToolbox.framework */; };
-		BF772BCD1D2E505300C3B0A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BCC1D2E505300C3B0A8 /* CoreGraphics.framework */; };
-		BF772BCF1D2E505800C3B0A8 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BCE1D2E505800C3B0A8 /* GLKit.framework */; };
-		BF772BD11D2E505F00C3B0A8 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BD01D2E505F00C3B0A8 /* CoreAudio.framework */; };
-		BF772BD31D2E506500C3B0A8 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BD21D2E506500C3B0A8 /* CoreVideo.framework */; };
-		BF772BD51D2E506B00C3B0A8 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BD41D2E506B00C3B0A8 /* VideoToolbox.framework */; };
-		BF772BD71D2E507600C3B0A8 /* libc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BD61D2E507600C3B0A8 /* libc.tbd */; };
-		BF772BD91D2E507E00C3B0A8 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BD81D2E507E00C3B0A8 /* libsqlite3.tbd */; };
-		BF772BDB1D2E508500C3B0A8 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BDA1D2E508500C3B0A8 /* libstdc++.tbd */; };
+		F7E3B9721D8BA9A8005B88A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		F7E3B9731D8BA9A8005B88A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		F7E3B9751D8BA9A8005B88A3 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BDA1D2E508500C3B0A8 /* libstdc++.tbd */; };
+		F7E3B9761D8BA9A8005B88A3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BD81D2E507E00C3B0A8 /* libsqlite3.tbd */; };
+		F7E3B9771D8BA9A8005B88A3 /* libc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BD61D2E507600C3B0A8 /* libc.tbd */; };
+		F7E3B9781D8BA9A8005B88A3 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BD41D2E506B00C3B0A8 /* VideoToolbox.framework */; };
+		F7E3B9791D8BA9A8005B88A3 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BD21D2E506500C3B0A8 /* CoreVideo.framework */; };
+		F7E3B97A1D8BA9A8005B88A3 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BD01D2E505F00C3B0A8 /* CoreAudio.framework */; };
+		F7E3B97B1D8BA9A8005B88A3 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BCE1D2E505800C3B0A8 /* GLKit.framework */; };
+		F7E3B97C1D8BA9A8005B88A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BCC1D2E505300C3B0A8 /* CoreGraphics.framework */; };
+		F7E3B97D1D8BA9A8005B88A3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BCA1D2E504D00C3B0A8 /* AudioToolbox.framework */; };
+		F7E3B97E1D8BA9A8005B88A3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BC81D2E503700C3B0A8 /* AVFoundation.framework */; };
+		F7E3B97F1D8BA9A8005B88A3 /* libRCTWebRTC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BC41D2E500700C3B0A8 /* libRCTWebRTC.a */; };
+		F7E3B9801D8BA9A8005B88A3 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		F7E3B9811D8BA9A8005B88A3 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
+		F7E3B9821D8BA9A8005B88A3 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
+		F7E3B9831D8BA9A8005B88A3 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
+		F7E3B9841D8BA9A8005B88A3 /* libWebRTC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BB41D2E500700C3B0A8 /* libWebRTC.a */; };
+		F7E3B9851D8BA9A8005B88A3 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
+		F7E3B9861D8BA9A8005B88A3 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
+		F7E3B9871D8BA9A8005B88A3 /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
+		F7E3B9881D8BA9A8005B88A3 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		F7E3B9891D8BA9A8005B88A3 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
+		F7E3B98A1D8BA9A8005B88A3 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
+		F7E3B98C1D8BA9A8005B88A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		F7E3B98D1D8BA9A8005B88A3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		F7E3B9B71D8BAC4B005B88A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		F7E3B9B81D8BAC4B005B88A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		F7E3B9BA1D8BAC4B005B88A3 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BDA1D2E508500C3B0A8 /* libstdc++.tbd */; };
+		F7E3B9BB1D8BAC4B005B88A3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BD81D2E507E00C3B0A8 /* libsqlite3.tbd */; };
+		F7E3B9BC1D8BAC4B005B88A3 /* libc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BD61D2E507600C3B0A8 /* libc.tbd */; };
+		F7E3B9BD1D8BAC4B005B88A3 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BD41D2E506B00C3B0A8 /* VideoToolbox.framework */; };
+		F7E3B9BE1D8BAC4B005B88A3 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BD21D2E506500C3B0A8 /* CoreVideo.framework */; };
+		F7E3B9BF1D8BAC4B005B88A3 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BD01D2E505F00C3B0A8 /* CoreAudio.framework */; };
+		F7E3B9C01D8BAC4B005B88A3 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BCE1D2E505800C3B0A8 /* GLKit.framework */; };
+		F7E3B9C11D8BAC4B005B88A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BCC1D2E505300C3B0A8 /* CoreGraphics.framework */; };
+		F7E3B9C21D8BAC4B005B88A3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BCA1D2E504D00C3B0A8 /* AudioToolbox.framework */; };
+		F7E3B9C31D8BAC4B005B88A3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BC81D2E503700C3B0A8 /* AVFoundation.framework */; };
+		F7E3B9C41D8BAC4B005B88A3 /* libRCTWebRTC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BC41D2E500700C3B0A8 /* libRCTWebRTC.a */; };
+		F7E3B9C51D8BAC4B005B88A3 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		F7E3B9C61D8BAC4B005B88A3 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
+		F7E3B9C71D8BAC4B005B88A3 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
+		F7E3B9C81D8BAC4B005B88A3 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
+		F7E3B9C91D8BAC4B005B88A3 /* libWebRTC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BB41D2E500700C3B0A8 /* libWebRTC.a */; };
+		F7E3B9CA1D8BAC4B005B88A3 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
+		F7E3B9CB1D8BAC4B005B88A3 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
+		F7E3B9CC1D8BAC4B005B88A3 /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
+		F7E3B9CD1D8BAC4B005B88A3 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		F7E3B9CE1D8BAC4B005B88A3 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
+		F7E3B9CF1D8BAC4B005B88A3 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
+		F7E3B9D11D8BAC4B005B88A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		F7E3B9D21D8BAC4B005B88A3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,13 +98,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = 832C81801AAF6DEF007FA2F7;
 			remoteInfo = RCTVibration;
-		};
-		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = iOSNativeApp;
 		};
 		139105C01AF99BAD00B5F7CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -131,12 +150,11 @@
 		00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTImage.xcodeproj; path = "../node_modules/react-native/Libraries/Image/RCTImage.xcodeproj"; sourceTree = "<group>"; };
 		00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTNetwork.xcodeproj; path = "../node_modules/react-native/Libraries/Network/RCTNetwork.xcodeproj"; sourceTree = "<group>"; };
 		00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVibration.xcodeproj; path = "../node_modules/react-native/Libraries/Vibration/RCTVibration.xcodeproj"; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* iOSNativeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSNativeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* iOSNativeAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSNativeAppTests.m; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* iOSNativeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSNativeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = iOSNativeApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = iOSNativeApp/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -188,6 +206,10 @@
 		BF772BD61D2E507600C3B0A8 /* libc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libc.tbd; path = usr/lib/libc.tbd; sourceTree = SDKROOT; };
 		BF772BD81D2E507E00C3B0A8 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		BF772BDA1D2E508500C3B0A8 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		F7E3B9921D8BA9A8005B88A3 /* Liive.In Internal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Liive.In Internal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E3B9931D8BA9A8005B88A3 /* Liive.In Internal.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Liive.In Internal.plist"; path = "/Users/robblovell/src/liive/liive.in/ios/Liive.In Internal.plist"; sourceTree = "<absolute>"; };
+		F7E3B9D71D8BAC4B005B88A3 /* Liive.In.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Liive.In.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E3B9D81D8BAC4C005B88A3 /* Liive.In-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Liive.In-Info.plist"; path = "/Users/robblovell/src/liive/liive.in/ios/Liive.In-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,32 +221,61 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+		F7E3B9741D8BA9A8005B88A3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF772BDB1D2E508500C3B0A8 /* libstdc++.tbd in Frameworks */,
-				BF772BD91D2E507E00C3B0A8 /* libsqlite3.tbd in Frameworks */,
-				BF772BD71D2E507600C3B0A8 /* libc.tbd in Frameworks */,
-				BF772BD51D2E506B00C3B0A8 /* VideoToolbox.framework in Frameworks */,
-				BF772BD31D2E506500C3B0A8 /* CoreVideo.framework in Frameworks */,
-				BF772BD11D2E505F00C3B0A8 /* CoreAudio.framework in Frameworks */,
-				BF772BCF1D2E505800C3B0A8 /* GLKit.framework in Frameworks */,
-				BF772BCD1D2E505300C3B0A8 /* CoreGraphics.framework in Frameworks */,
-				BF772BCB1D2E504D00C3B0A8 /* AudioToolbox.framework in Frameworks */,
-				BF772BC91D2E503700C3B0A8 /* AVFoundation.framework in Frameworks */,
-				BF772BC71D2E502A00C3B0A8 /* libRCTWebRTC.a in Frameworks */,
-				146834051AC3E58100842450 /* libReact.a in Frameworks */,
-				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
-				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
-				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
-				BF772BB91D2E500700C3B0A8 /* libWebRTC.a in Frameworks */,
-				133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */,
-				00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */,
-				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
-				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
-				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
-				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
+				F7E3B9751D8BA9A8005B88A3 /* libstdc++.tbd in Frameworks */,
+				F7E3B9761D8BA9A8005B88A3 /* libsqlite3.tbd in Frameworks */,
+				F7E3B9771D8BA9A8005B88A3 /* libc.tbd in Frameworks */,
+				F7E3B9781D8BA9A8005B88A3 /* VideoToolbox.framework in Frameworks */,
+				F7E3B9791D8BA9A8005B88A3 /* CoreVideo.framework in Frameworks */,
+				F7E3B97A1D8BA9A8005B88A3 /* CoreAudio.framework in Frameworks */,
+				F7E3B97B1D8BA9A8005B88A3 /* GLKit.framework in Frameworks */,
+				F7E3B97C1D8BA9A8005B88A3 /* CoreGraphics.framework in Frameworks */,
+				F7E3B97D1D8BA9A8005B88A3 /* AudioToolbox.framework in Frameworks */,
+				F7E3B97E1D8BA9A8005B88A3 /* AVFoundation.framework in Frameworks */,
+				F7E3B97F1D8BA9A8005B88A3 /* libRCTWebRTC.a in Frameworks */,
+				F7E3B9801D8BA9A8005B88A3 /* libReact.a in Frameworks */,
+				F7E3B9811D8BA9A8005B88A3 /* libRCTActionSheet.a in Frameworks */,
+				F7E3B9821D8BA9A8005B88A3 /* libRCTGeolocation.a in Frameworks */,
+				F7E3B9831D8BA9A8005B88A3 /* libRCTImage.a in Frameworks */,
+				F7E3B9841D8BA9A8005B88A3 /* libWebRTC.a in Frameworks */,
+				F7E3B9851D8BA9A8005B88A3 /* libRCTLinking.a in Frameworks */,
+				F7E3B9861D8BA9A8005B88A3 /* libRCTNetwork.a in Frameworks */,
+				F7E3B9871D8BA9A8005B88A3 /* libRCTSettings.a in Frameworks */,
+				F7E3B9881D8BA9A8005B88A3 /* libRCTText.a in Frameworks */,
+				F7E3B9891D8BA9A8005B88A3 /* libRCTVibration.a in Frameworks */,
+				F7E3B98A1D8BA9A8005B88A3 /* libRCTWebSocket.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E3B9B91D8BAC4B005B88A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E3B9BA1D8BAC4B005B88A3 /* libstdc++.tbd in Frameworks */,
+				F7E3B9BB1D8BAC4B005B88A3 /* libsqlite3.tbd in Frameworks */,
+				F7E3B9BC1D8BAC4B005B88A3 /* libc.tbd in Frameworks */,
+				F7E3B9BD1D8BAC4B005B88A3 /* VideoToolbox.framework in Frameworks */,
+				F7E3B9BE1D8BAC4B005B88A3 /* CoreVideo.framework in Frameworks */,
+				F7E3B9BF1D8BAC4B005B88A3 /* CoreAudio.framework in Frameworks */,
+				F7E3B9C01D8BAC4B005B88A3 /* GLKit.framework in Frameworks */,
+				F7E3B9C11D8BAC4B005B88A3 /* CoreGraphics.framework in Frameworks */,
+				F7E3B9C21D8BAC4B005B88A3 /* AudioToolbox.framework in Frameworks */,
+				F7E3B9C31D8BAC4B005B88A3 /* AVFoundation.framework in Frameworks */,
+				F7E3B9C41D8BAC4B005B88A3 /* libRCTWebRTC.a in Frameworks */,
+				F7E3B9C51D8BAC4B005B88A3 /* libReact.a in Frameworks */,
+				F7E3B9C61D8BAC4B005B88A3 /* libRCTActionSheet.a in Frameworks */,
+				F7E3B9C71D8BAC4B005B88A3 /* libRCTGeolocation.a in Frameworks */,
+				F7E3B9C81D8BAC4B005B88A3 /* libRCTImage.a in Frameworks */,
+				F7E3B9C91D8BAC4B005B88A3 /* libWebRTC.a in Frameworks */,
+				F7E3B9CA1D8BAC4B005B88A3 /* libRCTLinking.a in Frameworks */,
+				F7E3B9CB1D8BAC4B005B88A3 /* libRCTNetwork.a in Frameworks */,
+				F7E3B9CC1D8BAC4B005B88A3 /* libRCTSettings.a in Frameworks */,
+				F7E3B9CD1D8BAC4B005B88A3 /* libRCTText.a in Frameworks */,
+				F7E3B9CE1D8BAC4B005B88A3 /* libRCTVibration.a in Frameworks */,
+				F7E3B9CF1D8BAC4B005B88A3 /* libRCTWebSocket.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +429,8 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* iOSNativeAppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
+				F7E3B9931D8BA9A8005B88A3 /* Liive.In Internal.plist */,
+				F7E3B9D81D8BAC4C005B88A3 /* Liive.In-Info.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -386,8 +439,9 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* iOSNativeApp.app */,
-				00E356EE1AD99517003FC87E /* iOSNativeAppTests.xctest */,
+				00E356EE1AD99517003FC87E /* Tests.xctest */,
+				F7E3B9921D8BA9A8005B88A3 /* Liive.In Internal.app */,
+				F7E3B9D71D8BAC4B005B88A3 /* Liive.In.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -450,9 +504,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* iOSNativeAppTests */ = {
+		00E356ED1AD99517003FC87E /* Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "iOSNativeAppTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
@@ -461,29 +515,46 @@
 			buildRules = (
 			);
 			dependencies = (
-				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = iOSNativeAppTests;
+			name = Tests;
 			productName = iOSNativeAppTests;
-			productReference = 00E356EE1AD99517003FC87E /* iOSNativeAppTests.xctest */;
+			productReference = 00E356EE1AD99517003FC87E /* Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* iOSNativeApp */ = {
+		F7E3B9701D8BA9A8005B88A3 /* Liive.In Internal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "iOSNativeApp" */;
+			buildConfigurationList = F7E3B98F1D8BA9A8005B88A3 /* Build configuration list for PBXNativeTarget "Liive.In Internal" */;
 			buildPhases = (
-				13B07F871A680F5B00A75B9A /* Sources */,
-				13B07F8C1A680F5B00A75B9A /* Frameworks */,
-				13B07F8E1A680F5B00A75B9A /* Resources */,
-				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				F7E3B9711D8BA9A8005B88A3 /* Sources */,
+				F7E3B9741D8BA9A8005B88A3 /* Frameworks */,
+				F7E3B98B1D8BA9A8005B88A3 /* Resources */,
+				F7E3B98E1D8BA9A8005B88A3 /* Bundle React Native code and images */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = iOSNativeApp;
+			name = "Liive.In Internal";
 			productName = "Hello World";
-			productReference = 13B07F961A680F5B00A75B9A /* iOSNativeApp.app */;
+			productReference = F7E3B9921D8BA9A8005B88A3 /* Liive.In Internal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7E3B9B51D8BAC4B005B88A3 /* Liive.In */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7E3B9D41D8BAC4B005B88A3 /* Build configuration list for PBXNativeTarget "Liive.In" */;
+			buildPhases = (
+				F7E3B9B61D8BAC4B005B88A3 /* Sources */,
+				F7E3B9B91D8BAC4B005B88A3 /* Frameworks */,
+				F7E3B9D01D8BAC4B005B88A3 /* Resources */,
+				F7E3B9D31D8BAC4B005B88A3 /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Liive.In;
+			productName = "Hello World";
+			productReference = F7E3B9D71D8BAC4B005B88A3 /* Liive.In.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -493,13 +564,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = Facebook;
+				ORGANIZATIONNAME = Liive;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
-					13B07F861A680F5B00A75B9A = {
+					F7E3B9701D8BA9A8005B88A3 = {
 						DevelopmentTeam = 6HTLZ87436;
 					};
 				};
@@ -563,8 +634,9 @@
 			);
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* iOSNativeApp */,
-				00E356ED1AD99517003FC87E /* iOSNativeAppTests */,
+				F7E3B9B51D8BAC4B005B88A3 /* Liive.In */,
+				F7E3B9701D8BA9A8005B88A3 /* Liive.In Internal */,
+				00E356ED1AD99517003FC87E /* Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -657,19 +729,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+		F7E3B98B1D8BA9A8005B88A3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				F7E3B98C1D8BA9A8005B88A3 /* Images.xcassets in Resources */,
+				F7E3B98D1D8BA9A8005B88A3 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E3B9D01D8BAC4B005B88A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E3B9D11D8BAC4B005B88A3 /* Images.xcassets in Resources */,
+				F7E3B9D21D8BAC4B005B88A3 /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+		F7E3B98E1D8BA9A8005B88A3 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
+		};
+		F7E3B9D31D8BAC4B005B88A3 /* Bundle React Native code and images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -694,24 +789,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		13B07F871A680F5B00A75B9A /* Sources */ = {
+		F7E3B9711D8BA9A8005B88A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
-				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				F7E3B9721D8BA9A8005B88A3 /* AppDelegate.m in Sources */,
+				F7E3B9731D8BA9A8005B88A3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E3B9B61D8BAC4B005B88A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E3B9B71D8BAC4B005B88A3 /* AppDelegate.m in Sources */,
+				F7E3B9B81D8BAC4B005B88A3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* iOSNativeApp */;
-			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
@@ -758,59 +854,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSNativeApp.app/iOSNativeApp";
-			};
-			name = Release;
-		};
-		13B07F941A680F5B00A75B9A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEAD_CODE_STRIPPING = NO;
-				ENABLE_BITCODE = NO;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../node_modules/react-native/React/**",
-				);
-				INFOPLIST_FILE = iOSNativeApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native-webrtc/**";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-					"-lc++",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = iOSNativeApp;
-				PROVISIONING_PROFILE = "";
-			};
-			name = Debug;
-		};
-		13B07F951A680F5B00A75B9A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				ENABLE_BITCODE = NO;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../node_modules/react-native/React/**",
-				);
-				INFOPLIST_FILE = iOSNativeApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native-webrtc/**";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-					"-lc++",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = iOSNativeApp;
-				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -907,23 +950,120 @@
 			};
 			name = Release;
 		};
+		F7E3B9901D8BA9A8005B88A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEAD_CODE_STRIPPING = NO;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+				);
+				INFOPLIST_FILE = "LiiveIn copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native-webrtc/**";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.liive.internal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		F7E3B9911D8BA9A8005B88A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+				);
+				INFOPLIST_FILE = "LiiveIn copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native-webrtc/**";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.liive.internal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		F7E3B9D51D8BAC4B005B88A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEAD_CODE_STRIPPING = NO;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+				);
+				INFOPLIST_FILE = "LiiveIn copy2-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native-webrtc/**";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.liive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		F7E3B9D61D8BAC4B005B88A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../node_modules/react-native/React/**",
+				);
+				INFOPLIST_FILE = "LiiveIn copy2-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native-webrtc/**";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.liive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "iOSNativeAppTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
 				00E356F71AD99517003FC87E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "iOSNativeApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				13B07F941A680F5B00A75B9A /* Debug */,
-				13B07F951A680F5B00A75B9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -933,6 +1073,24 @@
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
 				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7E3B98F1D8BA9A8005B88A3 /* Build configuration list for PBXNativeTarget "Liive.In Internal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E3B9901D8BA9A8005B88A3 /* Debug */,
+				F7E3B9911D8BA9A8005B88A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7E3B9D41D8BAC4B005B88A3 /* Build configuration list for PBXNativeTarget "Liive.In" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E3B9D51D8BAC4B005B88A3 /* Debug */,
+				F7E3B9D61D8BAC4B005B88A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
