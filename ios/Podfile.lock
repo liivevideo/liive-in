@@ -1,0 +1,54 @@
+PODS:
+  - RCTWebRTC/Core (0.12.0):
+    - RCTWebRTC/libWebRTC
+  - RCTWebRTC/libWebRTC (0.12.0)
+  - React/Core (0.32.1):
+    - React/CSSLayout
+  - React/CSSLayout (0.32.1)
+  - React/RCTActionSheet (0.32.1):
+    - React/Core
+  - React/RCTGeolocation (0.32.1):
+    - React/Core
+  - React/RCTImage (0.32.1):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.32.1):
+    - React/Core
+  - React/RCTNetwork (0.32.1):
+    - React/Core
+  - React/RCTSettings (0.32.1):
+    - React/Core
+  - React/RCTText (0.32.1):
+    - React/Core
+  - React/RCTVibration (0.32.1):
+    - React/Core
+  - React/RCTWebSocket (0.32.1):
+    - React/Core
+
+DEPENDENCIES:
+  - RCTWebRTC/Core (from `../node_modules/react-native-webrtc`)
+  - RCTWebRTC/libWebRTC (from `../node_modules/react-native-webrtc`)
+  - React/Core (from `../node_modules/react-native`)
+  - React/RCTActionSheet (from `../node_modules/react-native`)
+  - React/RCTGeolocation (from `../node_modules/react-native`)
+  - React/RCTImage (from `../node_modules/react-native`)
+  - React/RCTLinkingIOS (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTSettings (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTVibration (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+
+EXTERNAL SOURCES:
+  RCTWebRTC:
+    :path: "../node_modules/react-native-webrtc"
+  React:
+    :path: "../node_modules/react-native"
+
+SPEC CHECKSUMS:
+  RCTWebRTC: e8815a9256be39d72c58bbb330f235040ebb5dc8
+  React: 304abd16605aeff4b114da814812a78de24d4ca5
+
+PODFILE CHECKSUM: 81255a95d2300e5f75423a54e2a4840d70213803
+
+COCOAPODS: 1.0.0

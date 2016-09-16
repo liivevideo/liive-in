@@ -8,7 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* iOSNativeAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* iOSNativeAppTests.m */; };
+		13626415471F387CED541EFD /* libPods-Liive.In.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F33560772CC26FF70313C058 /* libPods-Liive.In.a */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		607D0F1F6E235D3B64AD6211 /* libPods-Liive.In Internal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC7DE09FE97081518E5855E /* libPods-Liive.In Internal.a */; };
+		C4AC25832F7073E5AEEBFB9A /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEFB87D55DCDCC2B3038B3A /* libPods-Tests.a */; };
 		F7E3B9721D8BA9A8005B88A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		F7E3B9731D8BA9A8005B88A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		F7E3B9751D8BA9A8005B88A3 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BDA1D2E508500C3B0A8 /* libstdc++.tbd */; };
@@ -153,6 +156,7 @@
 		00E356EE1AD99517003FC87E /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* iOSNativeAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSNativeAppTests.m; sourceTree = "<group>"; };
+		08A585E492C4F419C418447D /* Pods-Liive.In Internal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Liive.In Internal.release.xcconfig"; path = "Pods/Target Support Files/Pods-Liive.In Internal/Pods-Liive.In Internal.release.xcconfig"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = iOSNativeApp/AppDelegate.h; sourceTree = "<group>"; };
@@ -162,8 +166,11 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = iOSNativeApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = iOSNativeApp/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		6A6EDFA53D8BC950C5A1AABD /* Pods-Liive.In.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Liive.In.release.xcconfig"; path = "Pods/Target Support Files/Pods-Liive.In/Pods-Liive.In.release.xcconfig"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
+		7BEFB87D55DCDCC2B3038B3A /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		8E0172586CF8509B78683FDA /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BF772B951D2E500700C3B0A8 /* RTCAudioSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCAudioSource.h; sourceTree = "<group>"; };
 		BF772B961D2E500700C3B0A8 /* RTCAudioTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCAudioTrack.h; sourceTree = "<group>"; };
 		BF772B971D2E500700C3B0A8 /* RTCAVFoundationVideoSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCAVFoundationVideoSource.h; sourceTree = "<group>"; };
@@ -206,6 +213,11 @@
 		BF772BD61D2E507600C3B0A8 /* libc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libc.tbd; path = usr/lib/libc.tbd; sourceTree = SDKROOT; };
 		BF772BD81D2E507E00C3B0A8 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		BF772BDA1D2E508500C3B0A8 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		C112FDA9AA170F0BE4AD4867 /* Pods-Liive.In Internal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Liive.In Internal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Liive.In Internal/Pods-Liive.In Internal.debug.xcconfig"; sourceTree = "<group>"; };
+		CCC7DE09FE97081518E5855E /* libPods-Liive.In Internal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Liive.In Internal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1AE46A3A507C64FA6C19C7D /* Pods-Liive.In.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Liive.In.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Liive.In/Pods-Liive.In.debug.xcconfig"; sourceTree = "<group>"; };
+		F1B681341F541CE00A74CE39 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F33560772CC26FF70313C058 /* libPods-Liive.In.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Liive.In.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E3B9921D8BA9A8005B88A3 /* Liive.In Internal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Liive.In Internal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E3B9931D8BA9A8005B88A3 /* Liive.In Internal.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Liive.In Internal.plist"; path = "/Users/robblovell/src/liive/liive.in/ios/Liive.In Internal.plist"; sourceTree = "<absolute>"; };
 		F7E3B9D71D8BAC4B005B88A3 /* Liive.In.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Liive.In.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -218,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
+				C4AC25832F7073E5AEEBFB9A /* libPods-Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +260,7 @@
 				F7E3B9881D8BA9A8005B88A3 /* libRCTText.a in Frameworks */,
 				F7E3B9891D8BA9A8005B88A3 /* libRCTVibration.a in Frameworks */,
 				F7E3B98A1D8BA9A8005B88A3 /* libRCTWebSocket.a in Frameworks */,
+				607D0F1F6E235D3B64AD6211 /* libPods-Liive.In Internal.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +290,7 @@
 				F7E3B9CD1D8BAC4B005B88A3 /* libRCTText.a in Frameworks */,
 				F7E3B9CE1D8BAC4B005B88A3 /* libRCTVibration.a in Frameworks */,
 				F7E3B9CF1D8BAC4B005B88A3 /* libRCTWebSocket.a in Frameworks */,
+				13626415471F387CED541EFD /* libPods-Liive.In.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +392,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		3EB3059A253943F2022E4DEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F33560772CC26FF70313C058 /* libPods-Liive.In.a */,
+				CCC7DE09FE97081518E5855E /* libPods-Liive.In Internal.a */,
+				7BEFB87D55DCDCC2B3038B3A /* libPods-Tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		78C398B11ACF4ADC00677621 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -431,6 +456,8 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				F7E3B9931D8BA9A8005B88A3 /* Liive.In Internal.plist */,
 				F7E3B9D81D8BAC4C005B88A3 /* Liive.In-Info.plist */,
+				9BB8F3BF62E4086CE4D25C0F /* Pods */,
+				3EB3059A253943F2022E4DEB /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -444,6 +471,19 @@
 				F7E3B9D71D8BAC4B005B88A3 /* Liive.In.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9BB8F3BF62E4086CE4D25C0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1AE46A3A507C64FA6C19C7D /* Pods-Liive.In.debug.xcconfig */,
+				6A6EDFA53D8BC950C5A1AABD /* Pods-Liive.In.release.xcconfig */,
+				C112FDA9AA170F0BE4AD4867 /* Pods-Liive.In Internal.debug.xcconfig */,
+				08A585E492C4F419C418447D /* Pods-Liive.In Internal.release.xcconfig */,
+				F1B681341F541CE00A74CE39 /* Pods-Tests.debug.xcconfig */,
+				8E0172586CF8509B78683FDA /* Pods-Tests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		BF772B931D2E500700C3B0A8 /* libjingle_peerconnection */ = {
@@ -508,9 +548,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
+				F4BF997032A47F2842EEBDD2 /* 📦 Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				D292CD9BF4FE7EDADD639D3D /* 📦 Embed Pods Frameworks */,
+				CAB3E4F99DC5D1781E9ECBB1 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -525,10 +568,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7E3B98F1D8BA9A8005B88A3 /* Build configuration list for PBXNativeTarget "Liive.In Internal" */;
 			buildPhases = (
+				EC24B770BDE8C16B6A59C688 /* 📦 Check Pods Manifest.lock */,
 				F7E3B9711D8BA9A8005B88A3 /* Sources */,
 				F7E3B9741D8BA9A8005B88A3 /* Frameworks */,
 				F7E3B98B1D8BA9A8005B88A3 /* Resources */,
 				F7E3B98E1D8BA9A8005B88A3 /* Bundle React Native code and images */,
+				2E7BF8C5091EECCA4712EF47 /* 📦 Embed Pods Frameworks */,
+				2BA861BF2F78B923F32CFD93 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -543,10 +589,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7E3B9D41D8BAC4B005B88A3 /* Build configuration list for PBXNativeTarget "Liive.In" */;
 			buildPhases = (
+				43D2E1C8A60143CC7FADE70E /* 📦 Check Pods Manifest.lock */,
 				F7E3B9B61D8BAC4B005B88A3 /* Sources */,
 				F7E3B9B91D8BAC4B005B88A3 /* Frameworks */,
 				F7E3B9D01D8BAC4B005B88A3 /* Resources */,
 				F7E3B9D31D8BAC4B005B88A3 /* Bundle React Native code and images */,
+				2BB61C57B49F8CC48BA0D1BD /* 📦 Embed Pods Frameworks */,
+				BFC642624833167D8E58D218 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -750,6 +799,141 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2BA861BF2F78B923F32CFD93 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Liive.In Internal/Pods-Liive.In Internal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BB61C57B49F8CC48BA0D1BD /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Liive.In/Pods-Liive.In-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E7BF8C5091EECCA4712EF47 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Liive.In Internal/Pods-Liive.In Internal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43D2E1C8A60143CC7FADE70E /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BFC642624833167D8E58D218 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Liive.In/Pods-Liive.In-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAB3E4F99DC5D1781E9ECBB1 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D292CD9BF4FE7EDADD639D3D /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC24B770BDE8C16B6A59C688 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F4BF997032A47F2842EEBDD2 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		F7E3B98E1D8BA9A8005B88A3 /* Bundle React Native code and images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -824,6 +1008,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1B681341F541CE00A74CE39 /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				ENABLE_BITCODE = NO;
@@ -843,6 +1028,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E0172586CF8509B78683FDA /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -952,6 +1138,7 @@
 		};
 		F7E3B9901D8BA9A8005B88A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C112FDA9AA170F0BE4AD4867 /* Pods-Liive.In Internal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -965,7 +1152,7 @@
 				);
 				INFOPLIST_FILE = "Liive.In Internal.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native-webrtc/**";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -979,6 +1166,7 @@
 		};
 		F7E3B9911D8BA9A8005B88A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08A585E492C4F419C418447D /* Pods-Liive.In Internal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -991,7 +1179,7 @@
 				);
 				INFOPLIST_FILE = "Liive.In Internal.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native-webrtc/**";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -1005,6 +1193,7 @@
 		};
 		F7E3B9D51D8BAC4B005B88A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1AE46A3A507C64FA6C19C7D /* Pods-Liive.In.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1018,7 +1207,7 @@
 				);
 				INFOPLIST_FILE = "Liive.In-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native-webrtc/**";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -1032,6 +1221,7 @@
 		};
 		F7E3B9D61D8BAC4B005B88A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A6EDFA53D8BC950C5A1AABD /* Pods-Liive.In.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1044,7 +1234,7 @@
 				);
 				INFOPLIST_FILE = "Liive.In-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native-webrtc/**";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",

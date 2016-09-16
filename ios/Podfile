@@ -20,16 +20,21 @@ def import_app_pods
     ]
 
     pod 'RCTWebRTC', :path => '../node_modules/react-native-webrtc', :subspecs => [
-        'Core'
+        'Core',
+        'libWebRTC',
     ]
-
+    # $(SRCROOT)/../node_modules/react-native-webrtc/**
+    # $(inherited)
+    # "$PODS_CONFIGURATION_BUILD_DIR/RCTWebRTC"
+    # "$PODS_CONFIGURATION_BUILD_DIR/React"
+    # "${PODS_ROOT}/../../node_modules/react-native-webrtc/ios/libjingle_peerconnection"
 end
 
-target 'LiiveIn' do
+target 'Liive.In' do
     import_app_pods
 end
 
-target 'LiiveIn Internal' do
+target 'Liive.In Internal' do
     import_app_pods
 end
 
