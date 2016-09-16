@@ -278,7 +278,13 @@
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
+					F7D4077B1D8BC0A400DDA170 = {
+						DevelopmentTeam = 6HTLZ87436;
+					};
 					F7E3B9701D8BA9A8005B88A3 = {
+						DevelopmentTeam = 6HTLZ87436;
+					};
+					F7E3B9B51D8BAC4B005B88A3 = {
 						DevelopmentTeam = 6HTLZ87436;
 					};
 				};
@@ -296,10 +302,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F7E3B9B51D8BAC4B005B88A3 /* Liive.In */,
-				F7E3B9701D8BA9A8005B88A3 /* Liive.In Internal */,
-				00E356ED1AD99517003FC87E /* Tests */,
 				F7D4077B1D8BC0A400DDA170 /* iOSNativeApp */,
+				F7E3B9701D8BA9A8005B88A3 /* Liive.In Internal */,
+				F7E3B9B51D8BAC4B005B88A3 /* Liive.In */,
+				00E356ED1AD99517003FC87E /* Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -723,7 +729,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -771,7 +777,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = in.liive.internal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "588e6a39-9eef-47b7-b6f4-b8d10f6a2693";
 			};
 			name = Debug;
 		};
@@ -798,7 +804,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = in.liive.internal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "588e6a39-9eef-47b7-b6f4-b8d10f6a2693";
 			};
 			name = Release;
 		};
@@ -826,7 +832,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = in.liive.internal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "cf5b2bea-5f87-44a3-b9f3-7381978da4d3";
 			};
 			name = Debug;
 		};
@@ -853,7 +859,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = in.liive.internal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "cf5b2bea-5f87-44a3-b9f3-7381978da4d3";
 			};
 			name = Release;
 		};
@@ -862,8 +868,8 @@
 			baseConfigurationReference = F1AE46A3A507C64FA6C19C7D /* Pods-Liive.In.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEAD_CODE_STRIPPING = NO;
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
@@ -881,7 +887,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = in.liive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "6c09e345-1c8f-4497-81b4-583ee103c670";
 			};
 			name = Debug;
 		};
@@ -890,8 +896,8 @@
 			baseConfigurationReference = 6A6EDFA53D8BC950C5A1AABD /* Pods-Liive.In.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -908,7 +914,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = in.liive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "6c09e345-1c8f-4497-81b4-583ee103c670";
 			};
 			name = Release;
 		};
