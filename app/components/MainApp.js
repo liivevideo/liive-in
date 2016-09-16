@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import {
     AppRegistry,
+    ListView,
+    // Platform,
     StyleSheet,
     Text,
+    TextInput,
     TouchableHighlight,
     View,
-    TextInput,
-    ListView,
+
 } from 'react-native';
 import io from 'socket.io-client/socket.io';
 

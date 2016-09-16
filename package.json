@@ -29,7 +29,7 @@
     "react-native": "^0.32.0",
     "react-native-web": "https://github.com/liivevideo/react-native-web.git",
     "react-native-web-webrtc": "0.0.6",
-    "react-native-webrtc": "https://github.com/liivevideo/react-native-webrtc.git#0d25758157da785c66899a448628b0e812bb053b",
+    "react-native-webrtc": "https://github.com/liivevideo/react-native-webrtc.git",
     "socket.io-client": "^1.3.7",
     "url-loader": "0.5.7"
   },

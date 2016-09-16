@@ -7,13 +7,16 @@
   Handshake = require('../lib/Handshake');
 
   Room = (function() {
-    var channel, didConnect, didExchange, didLeave, exchangeCandidate, exchangeDescription, handshake;
+    var channel, configuration, didConnect, didExchange, didLeave, exchangeCandidate, exchangeDescription, handshake;
 
     handshake = null;
 
     channel = null;
 
-    function Room(configuration, _observers) {
+    configuration = null;
+
+    function Room(_configuration, _observers) {
+      configuration = _configuration;
       channel = new RTCChannel(configuration, _observers, {
         exchangeDescription: exchangeDescription,
         exchangeCandidate: exchangeCandidate
@@ -61,8 +64,10 @@
 
     didConnect = function() {
       channel.getMedia({
-        "audio": true,
-        "video": true
+        audio: true,
+        video: {
+          facingMode: "user"
+        }
       }, function(stream) {});
     };
 
