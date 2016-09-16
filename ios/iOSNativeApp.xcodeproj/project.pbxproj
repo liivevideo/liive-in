@@ -13,16 +13,10 @@
 		C4AC25832F7073E5AEEBFB9A /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEFB87D55DCDCC2B3038B3A /* libPods-Tests.a */; };
 		F7E3B9721D8BA9A8005B88A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		F7E3B9731D8BA9A8005B88A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		F7E3B9751D8BA9A8005B88A3 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BDA1D2E508500C3B0A8 /* libstdc++.tbd */; };
-		F7E3B9761D8BA9A8005B88A3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BD81D2E507E00C3B0A8 /* libsqlite3.tbd */; };
-		F7E3B9771D8BA9A8005B88A3 /* libc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BD61D2E507600C3B0A8 /* libc.tbd */; };
 		F7E3B98C1D8BA9A8005B88A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		F7E3B98D1D8BA9A8005B88A3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		F7E3B9B71D8BAC4B005B88A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		F7E3B9B81D8BAC4B005B88A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		F7E3B9BA1D8BAC4B005B88A3 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BDA1D2E508500C3B0A8 /* libstdc++.tbd */; };
-		F7E3B9BB1D8BAC4B005B88A3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BD81D2E507E00C3B0A8 /* libsqlite3.tbd */; };
-		F7E3B9BC1D8BAC4B005B88A3 /* libc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BD61D2E507600C3B0A8 /* libc.tbd */; };
 		F7E3B9D11D8BAC4B005B88A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		F7E3B9D21D8BAC4B005B88A3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
@@ -42,9 +36,6 @@
 		6A6EDFA53D8BC950C5A1AABD /* Pods-Liive.In.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Liive.In.release.xcconfig"; path = "Pods/Target Support Files/Pods-Liive.In/Pods-Liive.In.release.xcconfig"; sourceTree = "<group>"; };
 		7BEFB87D55DCDCC2B3038B3A /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E0172586CF8509B78683FDA /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BF772BD61D2E507600C3B0A8 /* libc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libc.tbd; path = usr/lib/libc.tbd; sourceTree = SDKROOT; };
-		BF772BD81D2E507E00C3B0A8 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		BF772BDA1D2E508500C3B0A8 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		C112FDA9AA170F0BE4AD4867 /* Pods-Liive.In Internal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Liive.In Internal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Liive.In Internal/Pods-Liive.In Internal.debug.xcconfig"; sourceTree = "<group>"; };
 		CCC7DE09FE97081518E5855E /* libPods-Liive.In Internal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Liive.In Internal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1AE46A3A507C64FA6C19C7D /* Pods-Liive.In.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Liive.In.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Liive.In/Pods-Liive.In.debug.xcconfig"; sourceTree = "<group>"; };
@@ -69,9 +60,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7E3B9751D8BA9A8005B88A3 /* libstdc++.tbd in Frameworks */,
-				F7E3B9761D8BA9A8005B88A3 /* libsqlite3.tbd in Frameworks */,
-				F7E3B9771D8BA9A8005B88A3 /* libc.tbd in Frameworks */,
 				607D0F1F6E235D3B64AD6211 /* libPods-Liive.In Internal.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -80,9 +68,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7E3B9BA1D8BAC4B005B88A3 /* libstdc++.tbd in Frameworks */,
-				F7E3B9BB1D8BAC4B005B88A3 /* libsqlite3.tbd in Frameworks */,
-				F7E3B9BC1D8BAC4B005B88A3 /* libc.tbd in Frameworks */,
 				13626415471F387CED541EFD /* libPods-Liive.In.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,9 +126,6 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				BF772BDA1D2E508500C3B0A8 /* libstdc++.tbd */,
-				BF772BD81D2E507E00C3B0A8 /* libsqlite3.tbd */,
-				BF772BD61D2E507600C3B0A8 /* libc.tbd */,
 				13B07FAE1A68108700A75B9A /* iOSNativeApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* iOSNativeAppTests */,
