@@ -43,3 +43,4 @@ android/keystores/debug.keystore
 **/bundle.js.map
 coverage
 shippable
+ios/Pods
