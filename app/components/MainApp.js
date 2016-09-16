@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import {
     AppRegistry,
+    ListView,
+    // Platform,
     StyleSheet,
     Text,
+    TextInput,
     TouchableHighlight,
     View,
-    TextInput,
-    ListView,
+
 } from 'react-native';
 import io from 'socket.io-client/socket.io';
 
@@ -83,7 +85,8 @@ var configuration = {
     RTCSessionDescription: RTCSessionDescription,
     RTCPeerConnection: RTCPeerConnection,
     RTCIceCandidate: RTCIceCandidate,
-    getUserMedia: getUserMedia
+    getUserMedia: getUserMedia,
+    mediaConstraints: { audio: true, video: { facingMode: "user" }},
 }
 
 // import { Room } from '../lib/Room'
@@ -209,7 +212,7 @@ const MainApp = React.createClass({
                         </TouchableHighlight>
                     </View>) : null
                 }
-                <RTCView streamURL={this.state.selfViewSrc} style={styles.selfView}/>
+                <RTCView streamURL={this.state.selfViewSrc} autoPlay muted style={styles.selfView}/>
                 {
                     mapHash(this.state.remoteList, function (remote, index) {
                         if (remote !== null && remote !== undefined)
