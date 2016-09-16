@@ -14,7 +14,6 @@
 		C4AC25832F7073E5AEEBFB9A /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEFB87D55DCDCC2B3038B3A /* libPods-Tests.a */; };
 		F7D4077E1D8BC0A400DDA170 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		F7D4077F1D8BC0A400DDA170 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		F7D407811D8BC0A400DDA170 /* libPods-Liive.In Internal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC7DE09FE97081518E5855E /* libPods-Liive.In Internal.a */; };
 		F7D407831D8BC0A400DDA170 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		F7D407841D8BC0A400DDA170 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		F7E3B9721D8BA9A8005B88A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
@@ -71,7 +70,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7D407811D8BC0A400DDA170 /* libPods-Liive.In Internal.a in Frameworks */,
 				62DDD6386CEDF0D5678461D6 /* libPods-iOSNativeApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,7 +276,13 @@
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
+					F7D4077B1D8BC0A400DDA170 = {
+						DevelopmentTeam = 6HTLZ87436;
+					};
 					F7E3B9701D8BA9A8005B88A3 = {
+						DevelopmentTeam = 6HTLZ87436;
+					};
+					F7E3B9B51D8BAC4B005B88A3 = {
 						DevelopmentTeam = 6HTLZ87436;
 					};
 				};
@@ -296,10 +300,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F7E3B9B51D8BAC4B005B88A3 /* Liive.In */,
-				F7E3B9701D8BA9A8005B88A3 /* Liive.In Internal */,
-				00E356ED1AD99517003FC87E /* Tests */,
 				F7D4077B1D8BC0A400DDA170 /* iOSNativeApp */,
+				F7E3B9701D8BA9A8005B88A3 /* Liive.In Internal */,
+				F7E3B9B51D8BAC4B005B88A3 /* Liive.In */,
+				00E356ED1AD99517003FC87E /* Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -723,7 +727,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -771,7 +775,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = in.liive.internal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "588e6a39-9eef-47b7-b6f4-b8d10f6a2693";
 			};
 			name = Debug;
 		};
@@ -798,7 +802,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = in.liive.internal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "588e6a39-9eef-47b7-b6f4-b8d10f6a2693";
 			};
 			name = Release;
 		};
@@ -826,7 +830,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = in.liive.internal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "cf5b2bea-5f87-44a3-b9f3-7381978da4d3";
 			};
 			name = Debug;
 		};
@@ -853,7 +857,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = in.liive.internal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "cf5b2bea-5f87-44a3-b9f3-7381978da4d3";
 			};
 			name = Release;
 		};
@@ -879,9 +883,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = in.liive;
+				PRODUCT_BUNDLE_IDENTIFIER = in.liive.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "6c09e345-1c8f-4497-81b4-583ee103c670";
 			};
 			name = Debug;
 		};
@@ -906,9 +910,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = in.liive;
+				PRODUCT_BUNDLE_IDENTIFIER = in.liive.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "6c09e345-1c8f-4497-81b4-583ee103c670";
 			};
 			name = Release;
 		};
