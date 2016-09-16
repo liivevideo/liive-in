@@ -17,19 +17,10 @@
 		F7E3B9751D8BA9A8005B88A3 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BDA1D2E508500C3B0A8 /* libstdc++.tbd */; };
 		F7E3B9761D8BA9A8005B88A3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BD81D2E507E00C3B0A8 /* libsqlite3.tbd */; };
 		F7E3B9771D8BA9A8005B88A3 /* libc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BD61D2E507600C3B0A8 /* libc.tbd */; };
-		F7E3B9781D8BA9A8005B88A3 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BD41D2E506B00C3B0A8 /* VideoToolbox.framework */; };
-		F7E3B9791D8BA9A8005B88A3 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BD21D2E506500C3B0A8 /* CoreVideo.framework */; };
-		F7E3B97A1D8BA9A8005B88A3 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BD01D2E505F00C3B0A8 /* CoreAudio.framework */; };
-		F7E3B97B1D8BA9A8005B88A3 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BCE1D2E505800C3B0A8 /* GLKit.framework */; };
-		F7E3B97C1D8BA9A8005B88A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BCC1D2E505300C3B0A8 /* CoreGraphics.framework */; };
-		F7E3B97D1D8BA9A8005B88A3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BCA1D2E504D00C3B0A8 /* AudioToolbox.framework */; };
-		F7E3B97E1D8BA9A8005B88A3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BC81D2E503700C3B0A8 /* AVFoundation.framework */; };
-		F7E3B97F1D8BA9A8005B88A3 /* libRCTWebRTC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BC41D2E500700C3B0A8 /* libRCTWebRTC.a */; };
 		F7E3B9801D8BA9A8005B88A3 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		F7E3B9811D8BA9A8005B88A3 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		F7E3B9821D8BA9A8005B88A3 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
 		F7E3B9831D8BA9A8005B88A3 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
-		F7E3B9841D8BA9A8005B88A3 /* libWebRTC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BB41D2E500700C3B0A8 /* libWebRTC.a */; };
 		F7E3B9851D8BA9A8005B88A3 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		F7E3B9861D8BA9A8005B88A3 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		F7E3B9871D8BA9A8005B88A3 /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
@@ -43,19 +34,10 @@
 		F7E3B9BA1D8BAC4B005B88A3 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BDA1D2E508500C3B0A8 /* libstdc++.tbd */; };
 		F7E3B9BB1D8BAC4B005B88A3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BD81D2E507E00C3B0A8 /* libsqlite3.tbd */; };
 		F7E3B9BC1D8BAC4B005B88A3 /* libc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BD61D2E507600C3B0A8 /* libc.tbd */; };
-		F7E3B9BD1D8BAC4B005B88A3 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BD41D2E506B00C3B0A8 /* VideoToolbox.framework */; };
-		F7E3B9BE1D8BAC4B005B88A3 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BD21D2E506500C3B0A8 /* CoreVideo.framework */; };
-		F7E3B9BF1D8BAC4B005B88A3 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BD01D2E505F00C3B0A8 /* CoreAudio.framework */; };
-		F7E3B9C01D8BAC4B005B88A3 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BCE1D2E505800C3B0A8 /* GLKit.framework */; };
-		F7E3B9C11D8BAC4B005B88A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BCC1D2E505300C3B0A8 /* CoreGraphics.framework */; };
-		F7E3B9C21D8BAC4B005B88A3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BCA1D2E504D00C3B0A8 /* AudioToolbox.framework */; };
-		F7E3B9C31D8BAC4B005B88A3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BC81D2E503700C3B0A8 /* AVFoundation.framework */; };
-		F7E3B9C41D8BAC4B005B88A3 /* libRCTWebRTC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BC41D2E500700C3B0A8 /* libRCTWebRTC.a */; };
 		F7E3B9C51D8BAC4B005B88A3 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		F7E3B9C61D8BAC4B005B88A3 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		F7E3B9C71D8BAC4B005B88A3 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
 		F7E3B9C81D8BAC4B005B88A3 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
-		F7E3B9C91D8BAC4B005B88A3 /* libWebRTC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF772BB41D2E500700C3B0A8 /* libWebRTC.a */; };
 		F7E3B9CA1D8BAC4B005B88A3 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		F7E3B9CB1D8BAC4B005B88A3 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		F7E3B9CC1D8BAC4B005B88A3 /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
@@ -137,13 +119,6 @@
 			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
 			remoteInfo = RCTText;
 		};
-		BF772BC31D2E500700C3B0A8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BF772BB51D2E500700C3B0A8 /* RCTWebRTC.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 35A2221F1CB493700015FD5C;
-			remoteInfo = RCTWebRTC;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -171,45 +146,6 @@
 		7BEFB87D55DCDCC2B3038B3A /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		8E0172586CF8509B78683FDA /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BF772B951D2E500700C3B0A8 /* RTCAudioSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCAudioSource.h; sourceTree = "<group>"; };
-		BF772B961D2E500700C3B0A8 /* RTCAudioTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCAudioTrack.h; sourceTree = "<group>"; };
-		BF772B971D2E500700C3B0A8 /* RTCAVFoundationVideoSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCAVFoundationVideoSource.h; sourceTree = "<group>"; };
-		BF772B981D2E500700C3B0A8 /* RTCDataChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCDataChannel.h; sourceTree = "<group>"; };
-		BF772B991D2E500700C3B0A8 /* RTCEAGLVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCEAGLVideoView.h; sourceTree = "<group>"; };
-		BF772B9A1D2E500700C3B0A8 /* RTCFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCFileLogger.h; sourceTree = "<group>"; };
-		BF772B9B1D2E500700C3B0A8 /* RTCI420Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCI420Frame.h; sourceTree = "<group>"; };
-		BF772B9C1D2E500700C3B0A8 /* RTCICECandidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCICECandidate.h; sourceTree = "<group>"; };
-		BF772B9D1D2E500700C3B0A8 /* RTCICEServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCICEServer.h; sourceTree = "<group>"; };
-		BF772B9E1D2E500700C3B0A8 /* RTCLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCLogging.h; sourceTree = "<group>"; };
-		BF772B9F1D2E500700C3B0A8 /* RTCMediaConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCMediaConstraints.h; sourceTree = "<group>"; };
-		BF772BA01D2E500700C3B0A8 /* RTCMediaSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCMediaSource.h; sourceTree = "<group>"; };
-		BF772BA11D2E500700C3B0A8 /* RTCMediaStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCMediaStream.h; sourceTree = "<group>"; };
-		BF772BA21D2E500700C3B0A8 /* RTCMediaStreamTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCMediaStreamTrack.h; sourceTree = "<group>"; };
-		BF772BA31D2E500700C3B0A8 /* RTCNSGLVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCNSGLVideoView.h; sourceTree = "<group>"; };
-		BF772BA41D2E500700C3B0A8 /* RTCOpenGLVideoRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCOpenGLVideoRenderer.h; sourceTree = "<group>"; };
-		BF772BA51D2E500700C3B0A8 /* RTCPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCPair.h; sourceTree = "<group>"; };
-		BF772BA61D2E500700C3B0A8 /* RTCPeerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCPeerConnection.h; sourceTree = "<group>"; };
-		BF772BA71D2E500700C3B0A8 /* RTCPeerConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCPeerConnectionDelegate.h; sourceTree = "<group>"; };
-		BF772BA81D2E500700C3B0A8 /* RTCPeerConnectionFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCPeerConnectionFactory.h; sourceTree = "<group>"; };
-		BF772BA91D2E500700C3B0A8 /* RTCPeerConnectionInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCPeerConnectionInterface.h; sourceTree = "<group>"; };
-		BF772BAA1D2E500700C3B0A8 /* RTCSessionDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCSessionDescription.h; sourceTree = "<group>"; };
-		BF772BAB1D2E500700C3B0A8 /* RTCSessionDescriptionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCSessionDescriptionDelegate.h; sourceTree = "<group>"; };
-		BF772BAC1D2E500700C3B0A8 /* RTCStatsDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCStatsDelegate.h; sourceTree = "<group>"; };
-		BF772BAD1D2E500700C3B0A8 /* RTCStatsReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCStatsReport.h; sourceTree = "<group>"; };
-		BF772BAE1D2E500700C3B0A8 /* RTCTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCTypes.h; sourceTree = "<group>"; };
-		BF772BAF1D2E500700C3B0A8 /* RTCVideoCapturer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCVideoCapturer.h; sourceTree = "<group>"; };
-		BF772BB01D2E500700C3B0A8 /* RTCVideoRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCVideoRenderer.h; sourceTree = "<group>"; };
-		BF772BB11D2E500700C3B0A8 /* RTCVideoSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCVideoSource.h; sourceTree = "<group>"; };
-		BF772BB21D2E500700C3B0A8 /* RTCVideoTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCVideoTrack.h; sourceTree = "<group>"; };
-		BF772BB41D2E500700C3B0A8 /* libWebRTC.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWebRTC.a; sourceTree = "<group>"; };
-		BF772BB51D2E500700C3B0A8 /* RCTWebRTC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebRTC.xcodeproj; path = "../node_modules/react-native-webrtc/ios/RCTWebRTC.xcodeproj"; sourceTree = "<group>"; };
-		BF772BC81D2E503700C3B0A8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		BF772BCA1D2E504D00C3B0A8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		BF772BCC1D2E505300C3B0A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BF772BCE1D2E505800C3B0A8 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
-		BF772BD01D2E505F00C3B0A8 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
-		BF772BD21D2E506500C3B0A8 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
-		BF772BD41D2E506B00C3B0A8 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		BF772BD61D2E507600C3B0A8 /* libc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libc.tbd; path = usr/lib/libc.tbd; sourceTree = SDKROOT; };
 		BF772BD81D2E507E00C3B0A8 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		BF772BDA1D2E508500C3B0A8 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
@@ -241,19 +177,10 @@
 				F7E3B9751D8BA9A8005B88A3 /* libstdc++.tbd in Frameworks */,
 				F7E3B9761D8BA9A8005B88A3 /* libsqlite3.tbd in Frameworks */,
 				F7E3B9771D8BA9A8005B88A3 /* libc.tbd in Frameworks */,
-				F7E3B9781D8BA9A8005B88A3 /* VideoToolbox.framework in Frameworks */,
-				F7E3B9791D8BA9A8005B88A3 /* CoreVideo.framework in Frameworks */,
-				F7E3B97A1D8BA9A8005B88A3 /* CoreAudio.framework in Frameworks */,
-				F7E3B97B1D8BA9A8005B88A3 /* GLKit.framework in Frameworks */,
-				F7E3B97C1D8BA9A8005B88A3 /* CoreGraphics.framework in Frameworks */,
-				F7E3B97D1D8BA9A8005B88A3 /* AudioToolbox.framework in Frameworks */,
-				F7E3B97E1D8BA9A8005B88A3 /* AVFoundation.framework in Frameworks */,
-				F7E3B97F1D8BA9A8005B88A3 /* libRCTWebRTC.a in Frameworks */,
 				F7E3B9801D8BA9A8005B88A3 /* libReact.a in Frameworks */,
 				F7E3B9811D8BA9A8005B88A3 /* libRCTActionSheet.a in Frameworks */,
 				F7E3B9821D8BA9A8005B88A3 /* libRCTGeolocation.a in Frameworks */,
 				F7E3B9831D8BA9A8005B88A3 /* libRCTImage.a in Frameworks */,
-				F7E3B9841D8BA9A8005B88A3 /* libWebRTC.a in Frameworks */,
 				F7E3B9851D8BA9A8005B88A3 /* libRCTLinking.a in Frameworks */,
 				F7E3B9861D8BA9A8005B88A3 /* libRCTNetwork.a in Frameworks */,
 				F7E3B9871D8BA9A8005B88A3 /* libRCTSettings.a in Frameworks */,
@@ -271,19 +198,10 @@
 				F7E3B9BA1D8BAC4B005B88A3 /* libstdc++.tbd in Frameworks */,
 				F7E3B9BB1D8BAC4B005B88A3 /* libsqlite3.tbd in Frameworks */,
 				F7E3B9BC1D8BAC4B005B88A3 /* libc.tbd in Frameworks */,
-				F7E3B9BD1D8BAC4B005B88A3 /* VideoToolbox.framework in Frameworks */,
-				F7E3B9BE1D8BAC4B005B88A3 /* CoreVideo.framework in Frameworks */,
-				F7E3B9BF1D8BAC4B005B88A3 /* CoreAudio.framework in Frameworks */,
-				F7E3B9C01D8BAC4B005B88A3 /* GLKit.framework in Frameworks */,
-				F7E3B9C11D8BAC4B005B88A3 /* CoreGraphics.framework in Frameworks */,
-				F7E3B9C21D8BAC4B005B88A3 /* AudioToolbox.framework in Frameworks */,
-				F7E3B9C31D8BAC4B005B88A3 /* AVFoundation.framework in Frameworks */,
-				F7E3B9C41D8BAC4B005B88A3 /* libRCTWebRTC.a in Frameworks */,
 				F7E3B9C51D8BAC4B005B88A3 /* libReact.a in Frameworks */,
 				F7E3B9C61D8BAC4B005B88A3 /* libRCTActionSheet.a in Frameworks */,
 				F7E3B9C71D8BAC4B005B88A3 /* libRCTGeolocation.a in Frameworks */,
 				F7E3B9C81D8BAC4B005B88A3 /* libRCTImage.a in Frameworks */,
-				F7E3B9C91D8BAC4B005B88A3 /* libWebRTC.a in Frameworks */,
 				F7E3B9CA1D8BAC4B005B88A3 /* libRCTLinking.a in Frameworks */,
 				F7E3B9CB1D8BAC4B005B88A3 /* libRCTNetwork.a in Frameworks */,
 				F7E3B9CC1D8BAC4B005B88A3 /* libRCTSettings.a in Frameworks */,
@@ -413,8 +331,6 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				BF772B931D2E500700C3B0A8 /* libjingle_peerconnection */,
-				BF772BB51D2E500700C3B0A8 /* RCTWebRTC.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
 				00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */,
@@ -443,13 +359,6 @@
 				BF772BDA1D2E508500C3B0A8 /* libstdc++.tbd */,
 				BF772BD81D2E507E00C3B0A8 /* libsqlite3.tbd */,
 				BF772BD61D2E507600C3B0A8 /* libc.tbd */,
-				BF772BD41D2E506B00C3B0A8 /* VideoToolbox.framework */,
-				BF772BD21D2E506500C3B0A8 /* CoreVideo.framework */,
-				BF772BD01D2E505F00C3B0A8 /* CoreAudio.framework */,
-				BF772BCE1D2E505800C3B0A8 /* GLKit.framework */,
-				BF772BCC1D2E505300C3B0A8 /* CoreGraphics.framework */,
-				BF772BCA1D2E504D00C3B0A8 /* AudioToolbox.framework */,
-				BF772BC81D2E503700C3B0A8 /* AVFoundation.framework */,
 				13B07FAE1A68108700A75B9A /* iOSNativeApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* iOSNativeAppTests */,
@@ -484,61 +393,6 @@
 				8E0172586CF8509B78683FDA /* Pods-Tests.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		BF772B931D2E500700C3B0A8 /* libjingle_peerconnection */ = {
-			isa = PBXGroup;
-			children = (
-				BF772B941D2E500700C3B0A8 /* Headers */,
-				BF772BB41D2E500700C3B0A8 /* libWebRTC.a */,
-			);
-			name = libjingle_peerconnection;
-			path = "../node_modules/react-native-webrtc/ios/libjingle_peerconnection";
-			sourceTree = "<group>";
-		};
-		BF772B941D2E500700C3B0A8 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				BF772B951D2E500700C3B0A8 /* RTCAudioSource.h */,
-				BF772B961D2E500700C3B0A8 /* RTCAudioTrack.h */,
-				BF772B971D2E500700C3B0A8 /* RTCAVFoundationVideoSource.h */,
-				BF772B981D2E500700C3B0A8 /* RTCDataChannel.h */,
-				BF772B991D2E500700C3B0A8 /* RTCEAGLVideoView.h */,
-				BF772B9A1D2E500700C3B0A8 /* RTCFileLogger.h */,
-				BF772B9B1D2E500700C3B0A8 /* RTCI420Frame.h */,
-				BF772B9C1D2E500700C3B0A8 /* RTCICECandidate.h */,
-				BF772B9D1D2E500700C3B0A8 /* RTCICEServer.h */,
-				BF772B9E1D2E500700C3B0A8 /* RTCLogging.h */,
-				BF772B9F1D2E500700C3B0A8 /* RTCMediaConstraints.h */,
-				BF772BA01D2E500700C3B0A8 /* RTCMediaSource.h */,
-				BF772BA11D2E500700C3B0A8 /* RTCMediaStream.h */,
-				BF772BA21D2E500700C3B0A8 /* RTCMediaStreamTrack.h */,
-				BF772BA31D2E500700C3B0A8 /* RTCNSGLVideoView.h */,
-				BF772BA41D2E500700C3B0A8 /* RTCOpenGLVideoRenderer.h */,
-				BF772BA51D2E500700C3B0A8 /* RTCPair.h */,
-				BF772BA61D2E500700C3B0A8 /* RTCPeerConnection.h */,
-				BF772BA71D2E500700C3B0A8 /* RTCPeerConnectionDelegate.h */,
-				BF772BA81D2E500700C3B0A8 /* RTCPeerConnectionFactory.h */,
-				BF772BA91D2E500700C3B0A8 /* RTCPeerConnectionInterface.h */,
-				BF772BAA1D2E500700C3B0A8 /* RTCSessionDescription.h */,
-				BF772BAB1D2E500700C3B0A8 /* RTCSessionDescriptionDelegate.h */,
-				BF772BAC1D2E500700C3B0A8 /* RTCStatsDelegate.h */,
-				BF772BAD1D2E500700C3B0A8 /* RTCStatsReport.h */,
-				BF772BAE1D2E500700C3B0A8 /* RTCTypes.h */,
-				BF772BAF1D2E500700C3B0A8 /* RTCVideoCapturer.h */,
-				BF772BB01D2E500700C3B0A8 /* RTCVideoRenderer.h */,
-				BF772BB11D2E500700C3B0A8 /* RTCVideoSource.h */,
-				BF772BB21D2E500700C3B0A8 /* RTCVideoTrack.h */,
-			);
-			path = Headers;
-			sourceTree = "<group>";
-		};
-		BF772BB61D2E500700C3B0A8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BF772BC41D2E500700C3B0A8 /* libRCTWebRTC.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -669,10 +523,6 @@
 					ProjectRef = 00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */;
 				},
 				{
-					ProductGroup = BF772BB61D2E500700C3B0A8 /* Products */;
-					ProjectRef = BF772BB51D2E500700C3B0A8 /* RCTWebRTC.xcodeproj */;
-				},
-				{
 					ProductGroup = 139FDEE71B06529A00C62182 /* Products */;
 					ProjectRef = 139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */;
 				},
@@ -759,13 +609,6 @@
 			fileType = archive.ar;
 			path = libRCTText.a;
 			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		BF772BC41D2E500700C3B0A8 /* libRCTWebRTC.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRCTWebRTC.a;
-			remoteRef = BF772BC31D2E500700C3B0A8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
