@@ -1,11 +1,14 @@
 
 RTCChannel = require('../lib/RTCChannel')
 Handshake = require ('../lib/Handshake')
+
 class Room
     handshake = null
     channel = null
+    configuration = null
 
-    constructor: (configuration, _observers) ->
+    constructor: (_configuration, _observers) ->
+        configuration = _configuration
         channel = new RTCChannel(configuration, _observers,
             {
                 exchangeDescription: exchangeDescription
@@ -50,8 +53,8 @@ class Room
 
     didConnect = () ->
 #        console.log('Room:: Did Connect, call get Media');
-
-        channel.getMedia({ "audio": true, "video": true }, (stream) ->
+        # apple specific:
+        channel.getMedia(configuration.mediaConstraints, (stream) ->
 #            console.log("Room:: did Connect end: "+stream)
         )
         return

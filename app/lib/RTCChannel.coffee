@@ -59,6 +59,7 @@ class RTCChannel
             )
         , (error) -> console.log("ERROR::onnegotiationneeded: Create Offer error:"+error)
         )
+
     _createListener = (socketId, isOffer) ->
 #        console.log("RTCChannel::CreateListener: id:"+socketId+"  offer:"+isOffer)
         pc = new RTCPeerConnection(configuration)
