@@ -1,6 +1,6 @@
 {
   "name": "liive.in.clients",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": true,
   "engine": {
     "node:": "node 6.4.0",
