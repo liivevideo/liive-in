@@ -1,6 +1,8 @@
 PODS:
   - RCTWebRTC (0.12.0):
-    - RCTWebRTC/libWebRTC (= 0.12.0)
+    - RCTWebRTC/Core (= 0.12.0)
+  - RCTWebRTC/Core (0.12.0):
+    - RCTWebRTC/libWebRTC
   - RCTWebRTC/libWebRTC (0.12.0)
   - React/Core (0.32.1):
     - React/CSSLayout
@@ -45,7 +47,7 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native"
 
 SPEC CHECKSUMS:
-  RCTWebRTC: 2863d62c93fe9b0d640143851cd936bc9d7248d1
+  RCTWebRTC: 46812c3b39d2254dd817aa3952e16dfcc1cb000d
   React: 304abd16605aeff4b114da814812a78de24d4ca5
 
 PODFILE CHECKSUM: bc2466ae0559728184d75b61ce82afe1020e89e4
