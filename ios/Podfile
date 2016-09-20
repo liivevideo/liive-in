@@ -19,7 +19,8 @@ def import_app_pods
         'RCTWebSocket',
     ]
 
-    pod 'RCTWebRTC', :path => '../node_modules/react-native-webrtc'
+    pod 'RCTWebRTC', :path => '../node_modules/react-native-webrtc/RCTWebRTC.podspec’
+    pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 end
 
 target 'Liive.In' do
