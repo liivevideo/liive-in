@@ -20,6 +20,7 @@ build:
   ci:
     - rm -f package.json
     - cp -f package-web.json package.json
+    - npm --version
     - npm install
     - npm test
 
