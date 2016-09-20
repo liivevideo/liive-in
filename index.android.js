@@ -1,17 +1,11 @@
-// if (!window.navigator.userAgent) {
-//   window.navigator.userAgent = "react-native";
-// }
-// import { AppRegistry } from 'react-native';
-//
-// let MainApp = require('./app/components/MainApp');
-//
-// AppRegistry.registerComponent('MainApp', () => MainApp);
+if (!window.navigator.userAgent) {
+  window.navigator.userAgent = "react-native";
+}
+import { AppRegistry } from 'react-native';
 
-'use strict';
+let MainApp = require('./app/components/MainApp');
 
-import { AppRegistry } from 'react-native'
-import setup from './js/setup'
+AppRegistry.registerComponent('MainApp', () => MainApp);
 
-AppRegistry.registerComponent('NativeStarterKit', setup);
 
 
