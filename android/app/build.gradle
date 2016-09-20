@@ -83,14 +83,6 @@ def enableSeparateBuildPerCPUArchitecture = false
 def enableProguardInReleaseBuilds = false
 
 android {
-    signingConfigs {
-        config {
-            keyAlias 'in.liive.android'
-            keyPassword 'macro7!'
-            storeFile file('/Users/robblovell/keystore/in-liive-android.jks')
-            storePassword 'macro7!'
-        }
-    }
     compileSdkVersion 23
     buildToolsVersion "23.0.1"
     defaultConfig {
@@ -115,10 +107,6 @@ android {
         release {
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
-            signingConfig signingConfigs.config
-        }
-        debug {
-            signingConfig signingConfigs.config
         }
     }
     // applicationVariants are e.g. debug, release
@@ -126,7 +114,7 @@ android {
         variant.outputs.each { output ->
             // For each separate APK per architecture, set a unique version code as described here:
             // http://tools.android.com/tech-docs/new-build-system/user-guide/apk-splits
-            def versionCodes = ["armeabi-v7a": 1, "x86": 2]
+            def versionCodes = ["armeabi-v7a":1, "x86":2]
             def abi = output.getFilter(OutputFile.ABI)
             if (abi != null) {  // null for the universal-debug, universal-release variants
                 output.versionCodeOverride =
@@ -138,7 +126,7 @@ android {
 
 dependencies {
     compile project(':react-native-vector-icons')
-    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile fileTree(dir: "libs", include: ["*.jar"])
     compile 'com.android.support:appcompat-v7:23.0.1'
     compile 'com.facebook.react:react-native:+'
     // From node_modules
