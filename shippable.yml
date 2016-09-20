@@ -18,6 +18,8 @@ build:
     - mkdir -p shippable/codecoverage
 
   ci:
+    - rm -f package.json
+    - cp -f package-web.json package.json
     - npm install
     - npm test
 
