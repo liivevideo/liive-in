@@ -50,13 +50,15 @@ module.exports = {
         }
     },
     module: {
+
         loaders: [
             {
                 test: /\.js$/,
                 externals: [nodeExternals()],
-                include: [path.resolve(__dirname, '../js'), path.resolve(__dirname, '../index.web.js')],
 
-                // exclude: /node_modules\/(?!(react-native-webrtc|native-base|react-native-web-webrtc|react-native-modalbox)\/).*/,
+                // include: [path.resolve(__dirname, '../app'), path.resolve(__dirname, '../index.web.js')],
+
+                exclude: /node_modules\/(?!(react-native-webrtc|react-native-web-webrtc)\/).*/,
                 //exclude: /node_modules\/(?!(react-native-webrtc|react-native-vector-icons|native-base|react-native-keyboard-aware-scroll-view|react-native-vector-icons|react-native-easy-grid|react-native-web-webrtc|react-native-modalbox)\/).*/,
                 // include: ['./js/setup','react-native-vector-icons','react-native-easy-grid','react-native-webrtc','native-base','react-native-web-webrtc','react-native-modalbox'],
                 // include: [
