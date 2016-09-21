@@ -1,5 +1,7 @@
 PODS:
   - RCTWebRTC (0.12.0)
+  - React (0.32.1):
+    - React/Core (= 0.32.1)
   - React/Core (0.32.1):
     - React/CSSLayout
   - React/CSSLayout (0.32.1)
@@ -22,9 +24,11 @@ PODS:
     - React/Core
   - React/RCTWebSocket (0.32.1):
     - React/Core
+  - RNVectorIcons (2.1.0):
+    - React
 
 DEPENDENCIES:
-  - RCTWebRTC (from `../node_modules/react-native-webrtc`)
+  - RCTWebRTC (from `../node_modules/react-native-webrtc/RCTWebRTC.podspec`)
   - React/Core (from `../node_modules/react-native`)
   - React/RCTActionSheet (from `../node_modules/react-native`)
   - React/RCTGeolocation (from `../node_modules/react-native`)
@@ -35,17 +39,21 @@ DEPENDENCIES:
   - React/RCTText (from `../node_modules/react-native`)
   - React/RCTVibration (from `../node_modules/react-native`)
   - React/RCTWebSocket (from `../node_modules/react-native`)
+  - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
 
 EXTERNAL SOURCES:
   RCTWebRTC:
-    :path: "../node_modules/react-native-webrtc"
+    :path: "../node_modules/react-native-webrtc/RCTWebRTC.podspec"
   React:
     :path: "../node_modules/react-native"
+  RNVectorIcons:
+    :path: "../node_modules/react-native-vector-icons"
 
 SPEC CHECKSUMS:
   RCTWebRTC: fdcf89eab8a38a485de3a743a3e8a076ef7e4911
   React: 304abd16605aeff4b114da814812a78de24d4ca5
+  RNVectorIcons: 8e9308e458f5ccb843d1f11d4aa4ae6368c70214
 
-PODFILE CHECKSUM: bc2466ae0559728184d75b61ce82afe1020e89e4
+PODFILE CHECKSUM: 93ae13a0d5d0be4d2d2946a97a592d2346abb1b9
 
 COCOAPODS: 1.0.0

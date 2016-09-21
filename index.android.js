@@ -7,3 +7,5 @@ let MainApp = require('./app/components/MainApp');
 
 AppRegistry.registerComponent('MainApp', () => MainApp);
 
+
+

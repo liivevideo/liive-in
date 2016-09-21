@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {
     AppRegistry,
     ListView,
-    // Platform,
+    Platform,
     StyleSheet,
     Text,
     TextInput,
@@ -88,6 +88,10 @@ var configuration = {
     getUserMedia: getUserMedia,
     mediaConstraints: { audio: true, video: { facingMode: "user" }},
 }
+if (Platform.OS == "android") {
+    configuration.mediaConstraints = { audio: true, video: true }
+}
+console.log(Platform.OS)
 
 // import { Room } from '../lib/Room'
 let Room = require('../lib/Room')
