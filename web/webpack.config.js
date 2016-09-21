@@ -10,14 +10,14 @@ const devServer = {
     colors: true,
     quiet: true,
     noInfo: false,
-    publicPath: '/assets/',
+    publicPath: path.join(__dirname, 'build'),
     historyApiFallback: false,
     host: '127.0.0.1',
-    port: 3001,
+    port: 3000,
     hot: false
 };
 module.exports = {
-    target: 'node',
+    target: 'web',
     devtool: 'source-map',
     devServer: devServer,
     entry: [
@@ -37,9 +37,7 @@ module.exports = {
         new WriteFilePlugin(),
         new CopyWebpackPlugin([
             {from: 'web/index.html', to: './', force: false},
-            {from: 'web/build/bundle.js', to: '../../server/public/build', force: true},
-            {from: 'web/build/bundle.js.map', to: '../../server/public/build', force: true},
-            {from: 'web/build/*.png', to: '../../server/public/build', force: true},
+            {from: 'web/build/bundle.*', to: '../../server/public/build', force: true, flatten:true},
         ], {copyUnmodified: true})
     ],
     resolve: {
@@ -72,11 +70,11 @@ module.exports = {
                         "es2015",
                         "react",
                         "react-native",
-                        "stage-0",
+                        "stage-1",
                     ],
                     plugins: [
-                        "transform-runtime",
-                        'add-module-exports',
+                        // "transform-runtime",
+                        // 'add-module-exports',
                         "transform-decorators-legacy",
                         "transform-class-properties",
                         "syntax-flow",

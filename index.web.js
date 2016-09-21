@@ -13,15 +13,3 @@ AppRegistry.runApplication('MainApp', {
 })
 
 
-//
-// 'use strict';
-//
-// import { AppRegistry, StatusBar } from 'react-native'
-// let setup = require( './js/setup')
-//
-// StatusBar.setBarStyle('light-content');
-// AppRegistry.registerComponent('MainApp', setup);
-//
-// AppRegistry.runApplication('MainApp', {
-//     rootTag: document.getElementById('react-root')
-// })
